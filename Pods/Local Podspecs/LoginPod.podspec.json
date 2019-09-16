@@ -1,0 +1,28 @@
+{
+  "name": "LoginPod",
+  "version": "0.1.0",
+  "summary": "A short description of LoginPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bruce-pac/LoginPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bruce-pac": "Bruce_pac312@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Bruce-pac/LoginPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LoginPod/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "LoginPod": [
+      "LoginPod/Assets/*",
+      "LoginPod/Classes/**/*.{xib,storyboard}"
+    ]
+  }
+}

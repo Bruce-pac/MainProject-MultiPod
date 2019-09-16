@@ -1,0 +1,6 @@
+framework module LoginPod {
+  umbrella header "LoginPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

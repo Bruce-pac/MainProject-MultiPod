@@ -1,0 +1,29 @@
+PODS:
+  - ListPod (0.1.0)
+  - LoginPod (0.1.0)
+
+DEPENDENCIES:
+  - ListPod (from `https://github.com/Bruce-pac/ListPod.git`)
+  - LoginPod (from `https://github.com/Bruce-pac/LoginPod.git`)
+
+EXTERNAL SOURCES:
+  ListPod:
+    :git: https://github.com/Bruce-pac/ListPod.git
+  LoginPod:
+    :git: https://github.com/Bruce-pac/LoginPod.git
+
+CHECKOUT OPTIONS:
+  ListPod:
+    :commit: cfce6d6e2b23efffdcb38b755576fe79a566f8a3
+    :git: https://github.com/Bruce-pac/ListPod.git
+  LoginPod:
+    :commit: f4c29e17c6de4961f1a59c90c0340b242dea04e2
+    :git: https://github.com/Bruce-pac/LoginPod.git
+
+SPEC CHECKSUMS:
+  ListPod: 66d9026d0348950b8f83d561a8934bacfb860be7
+  LoginPod: 1d5d6bec8e721b38941ce0b4be156c4ec25de6e6
+
+PODFILE CHECKSUM: 86108cfd14a0f1b02c2d5cd493f440eff481ee31
+
+COCOAPODS: 1.7.5

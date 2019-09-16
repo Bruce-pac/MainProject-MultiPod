@@ -1,0 +1,24 @@
+{
+  "name": "ListPod",
+  "version": "0.1.0",
+  "summary": "A short description of ListPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bruce-pac/ListPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bruce-pac": "Bruce_pac312@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Bruce-pac/ListPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "ListPod/Classes/**/*",
+  "swift_version": "5.0"
+}

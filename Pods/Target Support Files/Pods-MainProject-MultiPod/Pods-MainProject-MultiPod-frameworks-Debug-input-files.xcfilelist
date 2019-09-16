@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-MainProject-MultiPod/Pods-MainProject-MultiPod-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ListPod/ListPod.framework
+${BUILT_PRODUCTS_DIR}/LoginPod/LoginPod.framework
