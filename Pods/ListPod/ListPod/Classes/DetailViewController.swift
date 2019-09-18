@@ -12,6 +12,8 @@ class DetailViewController: UIViewController {
     lazy var textView: UITextView = {
         let textView = UITextView(frame: self.view.bounds)
         textView.textAlignment = NSTextAlignment.center
+        textView.font = UIFont.systemFont(ofSize: 20)
+        textView.isEditable = false
         return textView
     }()
 

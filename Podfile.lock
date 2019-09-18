@@ -14,10 +14,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ListPod:
-    :commit: cfce6d6e2b23efffdcb38b755576fe79a566f8a3
+    :commit: 7ab7418101997da06fe611f5e46d6b80a6ef028c
     :git: https://github.com/Bruce-pac/ListPod.git
   LoginPod:
-    :commit: f4c29e17c6de4961f1a59c90c0340b242dea04e2
+    :commit: 71ed3ef0068dbff76b25fec4f2dea2dcd5fbf83f
     :git: https://github.com/Bruce-pac/LoginPod.git
 
 SPEC CHECKSUMS:

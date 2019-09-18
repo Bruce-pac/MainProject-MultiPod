@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Dependency {
+@objcMembers public class Dependency: NSObject {
     let coordinator: ListPodCoordinatorType
 
     public init(coordinator: ListPodCoordinatorType) {
@@ -15,10 +15,10 @@ public class Dependency {
     }
 }
 
-public class ModuleManager {
+@objcMembers public class ModuleManager: NSObject {
     public static let shared = ModuleManager()
 
-    private init() {}
+    private override init() {}
 
     private(set) var dependency: Dependency?
 

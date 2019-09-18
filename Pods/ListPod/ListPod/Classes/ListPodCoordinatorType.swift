@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol ListPodCoordinatorType {
+@objc public protocol ListPodCoordinatorType: AnyObject {
     func jumpPayPage(based vc: UIViewController, with data: Any)
 }
