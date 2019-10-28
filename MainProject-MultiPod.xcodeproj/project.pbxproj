@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC7D2367388C0009AEF7 /* AppCoordinator.m */; };
+		8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456AC8023673B700009AEF7 /* PayViewController.storyboard */; };
+		8456AC8423673E9C0009AEF7 /* NavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC8323673E9C0009AEF7 /* NavigationCoordinator.m */; };
 		84D21F1B232D13B800859622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1A232D13B800859622 /* AppDelegate.m */; };
 		84D21F1E232D13B800859622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1D232D13B800859622 /* ViewController.m */; };
-		84D21F21232D13B800859622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F1F232D13B800859622 /* Main.storyboard */; };
 		84D21F23232D13BB00859622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F22232D13BB00859622 /* Assets.xcassets */; };
 		84D21F26232D13BB00859622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F24232D13BB00859622 /* LaunchScreen.storyboard */; };
 		84D21F29232D13BB00859622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F28232D13BB00859622 /* main.m */; };
@@ -22,12 +24,17 @@
 
 /* Begin PBXFileReference section */
 		79F584E5217FECCEB2034230 /* Pods-MainProject-MultiPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject-MultiPod.release.xcconfig"; path = "Target Support Files/Pods-MainProject-MultiPod/Pods-MainProject-MultiPod.release.xcconfig"; sourceTree = "<group>"; };
+		8456AC7C2367388C0009AEF7 /* AppCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinator.h; sourceTree = "<group>"; };
+		8456AC7D2367388C0009AEF7 /* AppCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoordinator.m; sourceTree = "<group>"; };
+		8456AC7F236738A80009AEF7 /* Coordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinator.h; sourceTree = "<group>"; };
+		8456AC8023673B700009AEF7 /* PayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayViewController.storyboard; sourceTree = "<group>"; };
+		8456AC8223673E9C0009AEF7 /* NavigationCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationCoordinator.h; sourceTree = "<group>"; };
+		8456AC8323673E9C0009AEF7 /* NavigationCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationCoordinator.m; sourceTree = "<group>"; };
 		84D21F16232D13B800859622 /* MainProject-MultiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainProject-MultiPod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D21F19232D13B800859622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D21F1A232D13B800859622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84D21F1C232D13B800859622 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84D21F1D232D13B800859622 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84D21F20232D13B800859622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D21F22232D13BB00859622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D21F25232D13BB00859622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D21F27232D13BB00859622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,11 +113,16 @@
 				84D796782332686700F5538E /* MainCoordinator.m */,
 				84D7967E23326CEB00F5538E /* BPHttpClient.h */,
 				84D7967D23326CEB00F5538E /* BPHttpClient.m */,
-				84D21F1F232D13B800859622 /* Main.storyboard */,
+				8456AC8023673B700009AEF7 /* PayViewController.storyboard */,
 				84D21F22232D13BB00859622 /* Assets.xcassets */,
 				84D21F24232D13BB00859622 /* LaunchScreen.storyboard */,
 				84D21F27232D13BB00859622 /* Info.plist */,
 				84D21F28232D13BB00859622 /* main.m */,
+				8456AC7C2367388C0009AEF7 /* AppCoordinator.h */,
+				8456AC7D2367388C0009AEF7 /* AppCoordinator.m */,
+				8456AC7F236738A80009AEF7 /* Coordinator.h */,
+				8456AC8223673E9C0009AEF7 /* NavigationCoordinator.h */,
+				8456AC8323673E9C0009AEF7 /* NavigationCoordinator.m */,
 			);
 			path = "MainProject-MultiPod";
 			sourceTree = "<group>";
@@ -174,9 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */,
 				84D21F26232D13BB00859622 /* LaunchScreen.storyboard in Resources */,
 				84D21F23232D13BB00859622 /* Assets.xcassets in Resources */,
-				84D21F21232D13B800859622 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */,
 				84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */,
+				8456AC8423673E9C0009AEF7 /* NavigationCoordinator.m in Sources */,
 				84D796822332717200F5538E /* PayViewController.m in Sources */,
 				84D21F1E232D13B800859622 /* ViewController.m in Sources */,
 				84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */,
@@ -242,14 +256,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84D21F1F232D13B800859622 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84D21F20232D13B800859622 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84D21F24232D13BB00859622 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

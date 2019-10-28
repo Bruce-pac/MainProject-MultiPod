@@ -8,9 +8,10 @@
 
 #import "AppDelegate.h"
 #import "MainModuleManager.h"
+#import "AppCoordinator.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) AppCoordinator *appCoordinator;
 @end
 
 @implementation AppDelegate
@@ -19,6 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [MainModuleManager injectAllDependency];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];;
+    UINavigationController *root = [UINavigationController new];
+    self.appCoordinator = [[AppCoordinator alloc] initWithRootNavVC:root];
+    self.window.rootViewController = root;
+    [self.appCoordinator start];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
