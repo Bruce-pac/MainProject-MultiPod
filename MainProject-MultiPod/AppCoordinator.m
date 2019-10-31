@@ -8,25 +8,30 @@
 
 #import "AppCoordinator.h"
 #import <ListPod/ListPod-Swift.h>
+//#import <LoginCoordinator.h>
 
 @interface AppCoordinator ()
-//@property (nonatomic, strong) UIViewController *rootViewController;
+@property (nonatomic, strong) NSMutableArray<id<Coordinator>> *childCoordinators;
 @end
 
 @implementation AppCoordinator
 
-//- (instancetype)initWithRootViewController:(UIViewController *)rootViewController{
-//    self = [super init];
-//    if (self) {
-//        _rootViewController = rootViewController;
-//    }
-//    return self;
-//}
 
 - (void)start{
-    ListViewController *vc = [ListViewController new];
-
-    [self.rootNav pushViewController:vc animated:true];
-    
+    UINavigationController *listNav = [UINavigationController new];
+    id<Coordinator> listCoordinator = [[ListCoordinatorFactory new] makeCoordinatorWith:listNav];
+    [listCoordinator start];
+    [self.childCoordinators addObject:listCoordinator];
+//    LoginCoordinator *loginCoordinator = [[LoginCoordinator alloc] initWithRootVC:[UINavigationController new]];
+//    [self.childCoordinators addObject:loginCoordinator];
+    self.rootVC.viewControllers = @[listNav];
 }
+
+-(NSMutableArray<id<Coordinator>> *)childCoordinators{
+    if (!_childCoordinators) {
+        _childCoordinators = [NSMutableArray array];
+    }
+    return _childCoordinators;
+}
+
 @end

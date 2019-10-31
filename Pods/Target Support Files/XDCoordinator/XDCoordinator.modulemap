@@ -1,0 +1,6 @@
+framework module XDCoordinator {
+  umbrella header "XDCoordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}

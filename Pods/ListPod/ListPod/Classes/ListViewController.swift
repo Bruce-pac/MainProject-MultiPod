@@ -7,13 +7,21 @@
 
 import UIKit
 
-public class ListViewController: UIViewController {
+protocol ListViewControllerDelegate: AnyObject {
+    func onSelect(item: ListItem)
+}
+
+class ListViewController: UIViewController {
 
     let reuseId = "reuseId"
+    
+    weak var delegate: ListViewControllerDelegate?
+    
+    var viewModel: ListViewModel!
 
     lazy var tableView: UITableView = {
         let tableView = UITableView(frame: self.view.bounds, style: .plain)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: self.reuseId)
+        tableView.register(ListCell.self, forCellReuseIdentifier: self.reuseId)
         tableView.dataSource = self
         tableView.delegate = self
         tableView.allowsSelection = true
@@ -28,18 +36,44 @@ public class ListViewController: UIViewController {
 
 extension ListViewController: UITableViewDataSource, UITableViewDelegate {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return self.viewModel.cellModels.count
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: reuseId, for: indexPath)
-        cell.textLabel?.text = "I'm the number\(indexPath.row)"
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: reuseId, for: indexPath) as? ListCell else { fatalError() }
         cell.selectionStyle = .blue
+        cell.cellModel = self.viewModel.cellModels[indexPath.row]
         return cell
     }
 
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detail = DetailViewController(id: indexPath.row)
-        self.navigationController?.pushViewController(detail, animated: true)
+        let item = self.viewModel.items[indexPath.row]
+        delegate?.onSelect(item: item)
     }
+}
+
+class ListCell: UITableViewCell {
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: .default, reuseIdentifier: reuseIdentifier)
+    }
+    
+    var cellModel: ListCellModel? {
+        didSet {
+            textLabel?.attributedText = self.cellModel?.title
+        }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
+extension ListCoordinator: ListViewControllerDelegate{
+    public func onSelect(item: ListItem) {
+        let detail = DetailViewController(item: item)
+        detail.delegate = self
+        self.rootVC?.pushViewController(detail, animated: true)
+    }
+    
 }

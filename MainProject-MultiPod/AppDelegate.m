@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MainModuleManager.h"
 #import "AppCoordinator.h"
+#import "MainTabBarViewController.h"
 
 @interface AppDelegate ()
 @property (nonatomic, strong) AppCoordinator *appCoordinator;
@@ -21,8 +22,8 @@
     // Override point for customization after application launch.
     [MainModuleManager injectAllDependency];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];;
-    UINavigationController *root = [UINavigationController new];
-    self.appCoordinator = [[AppCoordinator alloc] initWithRootNavVC:root];
+    MainTabBarViewController *root = [MainTabBarViewController new];
+    self.appCoordinator = [[AppCoordinator alloc] initWithRootVC:root];
     self.window.rootViewController = root;
     [self.appCoordinator start];
     [self.window makeKeyAndVisible];

@@ -7,7 +7,11 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+protocol DetailViewControllerDelegate: AnyObject {
+    func onTapPay(_ vc: DetailViewController)
+}
+
+public class DetailViewController: UIViewController {
 
     lazy var textView: UITextView = {
         let textView = UITextView(frame: self.view.bounds)
@@ -17,10 +21,12 @@ class DetailViewController: UIViewController {
         return textView
     }()
 
-    let id: Int
+    let item: ListItem
+    
+    weak var delegate: DetailViewControllerDelegate?
 
-    init(id: Int) {
-        self.id = id
+    init(item: ListItem) {
+        self.item = item
         super.init(nibName: nil, bundle: nil)
     }
 
@@ -28,10 +34,13 @@ class DetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(textView)
-        textView.text = "I'm the detail of \(id) row item"
+        textView.text = """
+        I'm the detail of \(item.id) row item.
+        \(item.title)
+        """
 
         let payItem = UIBarButtonItem(title: "pay", style: .plain, target: self, action: #selector(pay))
 
@@ -39,6 +48,12 @@ class DetailViewController: UIViewController {
     }
 
     @objc func pay() {
-        ModuleManager.shared.dependency?.coordinator.jumpPayPage(based: self, with: id)
+        delegate?.onTapPay(self)
+    }
+}
+
+extension ListCoordinator: DetailViewControllerDelegate{
+    public func onTapPay(_ vc: DetailViewController) {
+        ModuleManager.shared.dependency?.coordinator.jumpPayPage(based: vc, with: vc.item)
     }
 }

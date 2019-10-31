@@ -11,9 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class UserInfo;
-@protocol LoginCoordinatorType <NSObject>
--(void)loginSuccess:(UserInfo *)info based:(UIViewController *)vc;
--(void)loginFailureBased:(UIViewController *)vc;
+@protocol LoginCoordinatorDelegate <NSObject>
+-(void)onLoginSuccess:(UserInfo *)info;
+-(void)onLoginFailure;
+-(void)closeLoginFlow;
 @end
 
 @protocol LoginHttpClientType <NSObject>
@@ -24,9 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface BPDependency : NSObject
-@property (nonatomic, strong, readonly) id<LoginCoordinatorType> coordinator;
+@property (nonatomic, strong, readonly) id<LoginCoordinatorDelegate> coordinator;
 @property (nonatomic, strong, readonly) id<LoginHttpClientType> httpClient;
--(instancetype)initWithCoordinator:(id<LoginCoordinatorType>)coordinator
+-(instancetype)initWithCoordinator:(id<LoginCoordinatorDelegate>)coordinator
                         httpClient:(id<LoginHttpClientType>)httpClient;
 @end
 

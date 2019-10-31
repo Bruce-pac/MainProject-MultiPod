@@ -1,5 +1,5 @@
 //
-//  NavigationCoordinator.h
+//  Coordinator.h
 //  MainProject-MultiPod
 //
 //  Created by gxy on 2019/10/28.
@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UINavigationController.h>
-#import "BaseCoordinator.h"
-#import "Coordinator.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NavigationCoordinator : BaseCoordinator<UINavigationController *>
+@protocol Coordinator <NSObject>
+-(void)start;
 @end
 
 NS_ASSUME_NONNULL_END

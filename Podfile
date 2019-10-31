@@ -8,5 +8,6 @@ target 'MainProject-MultiPod' do
   # Pods for MainProject-MultiPod
   pod 'ListPod', :git => 'https://github.com/Bruce-pac/ListPod.git'
   pod 'LoginPod', :git => 'https://github.com/Bruce-pac/LoginPod.git'
+  pod 'XDCoordinator', :git => 'https://github.com/Bruce-pac/XDCoordinator.git'
 
 end

@@ -6,11 +6,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <LoginViewModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginViewController : UIViewController
+@protocol LoginViewControllerDelegate <NSObject>
 
+-(void)loginResult:(BOOL)result vc:(UIViewController *)vc;
+-(void)onTapCloseBtnWith:(UIViewController *)vc;
+@end
+
+@interface LoginViewController : UIViewController
+@property (nonatomic, weak) id<LoginViewControllerDelegate> delegate;
+- (instancetype)initWithViewModel:(LoginViewModel *)viewModel;
 @end
 
 NS_ASSUME_NONNULL_END

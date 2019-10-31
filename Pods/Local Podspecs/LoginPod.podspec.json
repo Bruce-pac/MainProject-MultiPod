@@ -24,5 +24,10 @@
       "LoginPod/Assets/*",
       "LoginPod/Classes/**/*.{xib,storyboard}"
     ]
+  },
+  "dependencies": {
+    "XDCoordinator": [
+
+    ]
   }
 }

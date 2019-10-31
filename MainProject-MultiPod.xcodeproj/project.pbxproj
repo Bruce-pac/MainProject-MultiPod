@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32049194236AE30C00C53E33 /* MainTabBarViewController.m */; };
 		8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC7D2367388C0009AEF7 /* AppCoordinator.m */; };
 		8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456AC8023673B700009AEF7 /* PayViewController.storyboard */; };
-		8456AC8423673E9C0009AEF7 /* NavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC8323673E9C0009AEF7 /* NavigationCoordinator.m */; };
 		84D21F1B232D13B800859622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1A232D13B800859622 /* AppDelegate.m */; };
 		84D21F1E232D13B800859622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1D232D13B800859622 /* ViewController.m */; };
 		84D21F23232D13BB00859622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F22232D13BB00859622 /* Assets.xcassets */; };
@@ -23,13 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32049193236AE30C00C53E33 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		32049194236AE30C00C53E33 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		79F584E5217FECCEB2034230 /* Pods-MainProject-MultiPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject-MultiPod.release.xcconfig"; path = "Target Support Files/Pods-MainProject-MultiPod/Pods-MainProject-MultiPod.release.xcconfig"; sourceTree = "<group>"; };
 		8456AC7C2367388C0009AEF7 /* AppCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinator.h; sourceTree = "<group>"; };
 		8456AC7D2367388C0009AEF7 /* AppCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoordinator.m; sourceTree = "<group>"; };
-		8456AC7F236738A80009AEF7 /* Coordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinator.h; sourceTree = "<group>"; };
 		8456AC8023673B700009AEF7 /* PayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayViewController.storyboard; sourceTree = "<group>"; };
-		8456AC8223673E9C0009AEF7 /* NavigationCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationCoordinator.h; sourceTree = "<group>"; };
-		8456AC8323673E9C0009AEF7 /* NavigationCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationCoordinator.m; sourceTree = "<group>"; };
 		84D21F16232D13B800859622 /* MainProject-MultiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainProject-MultiPod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D21F19232D13B800859622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D21F1A232D13B800859622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,9 +119,8 @@
 				84D21F28232D13BB00859622 /* main.m */,
 				8456AC7C2367388C0009AEF7 /* AppCoordinator.h */,
 				8456AC7D2367388C0009AEF7 /* AppCoordinator.m */,
-				8456AC7F236738A80009AEF7 /* Coordinator.h */,
-				8456AC8223673E9C0009AEF7 /* NavigationCoordinator.h */,
-				8456AC8323673E9C0009AEF7 /* NavigationCoordinator.m */,
+				32049193236AE30C00C53E33 /* MainTabBarViewController.h */,
+				32049194236AE30C00C53E33 /* MainTabBarViewController.m */,
 			);
 			path = "MainProject-MultiPod";
 			sourceTree = "<group>";
@@ -243,11 +241,11 @@
 			files = (
 				8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */,
 				84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */,
-				8456AC8423673E9C0009AEF7 /* NavigationCoordinator.m in Sources */,
 				84D796822332717200F5538E /* PayViewController.m in Sources */,
 				84D21F1E232D13B800859622 /* ViewController.m in Sources */,
 				84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */,
 				84D796792332686700F5538E /* MainCoordinator.m in Sources */,
+				32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */,
 				84D21F29232D13BB00859622 /* main.m in Sources */,
 				84D21F1B232D13B800859622 /* AppDelegate.m in Sources */,
 			);
@@ -385,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NS27ZB8WPD;
 				INFOPLIST_FILE = "MainProject-MultiPod/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NS27ZB8WPD;
 				INFOPLIST_FILE = "MainProject-MultiPod/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

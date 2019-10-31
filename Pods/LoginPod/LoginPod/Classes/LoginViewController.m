@@ -11,6 +11,7 @@
 
 @interface LoginViewController ()
 @property (nonatomic, strong) UIActivityIndicatorView *netIndicator;
+@property (nonatomic, strong) LoginViewModel *viewModel;
 @end
 
 @implementation LoginViewController
@@ -23,6 +24,14 @@
     return self;
 }
 
+- (instancetype)initWithViewModel:(LoginViewModel *)viewModel{
+    self = [self init];
+    if (self) {
+        _viewModel = viewModel;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.netIndicator.center = self.view.center;
@@ -31,13 +40,18 @@
 
 - (IBAction)signIn:(id)sender {
     [self.netIndicator startAnimating];
-    [[LoginModuleManager shared].dependency.httpClient requestApi:@"loginApi" param:@{} success:^{
+    [self.viewModel loginWithCompletion:^(BOOL success) {
         [self.netIndicator stopAnimating];
-        [[LoginModuleManager shared].dependency.coordinator loginSuccess:[UserInfo new] based:self];
-    } failure:^{
-        [self.netIndicator stopAnimating];
-        [[LoginModuleManager shared].dependency.coordinator loginFailureBased:self];
+        if ([self.delegate respondsToSelector:@selector(loginResult:vc:)]) {
+            [self.delegate loginResult:success vc:self];
+        }
     }];
+    
+}
+- (IBAction)onTapClose:(id)sender {
+    if ([self.delegate respondsToSelector:@selector(onTapCloseBtnWith:)]) {
+        [self.delegate onTapCloseBtnWith:self];
+    }
 }
 
 -(UIActivityIndicatorView *)netIndicator{

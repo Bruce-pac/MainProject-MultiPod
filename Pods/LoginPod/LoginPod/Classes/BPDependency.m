@@ -8,12 +8,12 @@
 #import "BPDependency.h"
 
 @interface BPDependency ()
-@property (nonatomic, strong) id<LoginCoordinatorType> coordinator;
+@property (nonatomic, strong) id<LoginCoordinatorDelegate> coordinator;
 @property (nonatomic, strong) id<LoginHttpClientType> httpClient;
 @end
 
 @implementation BPDependency
-- (instancetype)initWithCoordinator:(id<LoginCoordinatorType>)coordinator httpClient:(id<LoginHttpClientType>)httpClient{
+- (instancetype)initWithCoordinator:(id<LoginCoordinatorDelegate>)coordinator httpClient:(id<LoginHttpClientType>)httpClient{
     self = [super init];
     if (self) {
         _coordinator = coordinator;

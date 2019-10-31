@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "Coordinator.h"
-#import "NavigationCoordinator.h"
+#import <XDCoordinator-umbrella.h>
+#import "MainTabBarViewController.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
-
-@interface AppCoordinator : NavigationCoordinator<Coordinator>
-//-(instancetype)initWithRootViewController:(UIViewController *)rootViewController;
+ 
+@interface AppCoordinator : BaseCoordinator<MainTabBarViewController *>
 @end
 
 NS_ASSUME_NONNULL_END
