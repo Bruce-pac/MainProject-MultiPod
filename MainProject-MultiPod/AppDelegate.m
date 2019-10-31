@@ -11,6 +11,7 @@
 #import "AppCoordinator.h"
 #import "MainTabBarViewController.h"
 
+
 @interface AppDelegate ()
 @property (nonatomic, strong) AppCoordinator *appCoordinator;
 @end
@@ -20,16 +21,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [MainModuleManager injectAllDependency];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];;
     MainTabBarViewController *root = [MainTabBarViewController new];
     self.appCoordinator = [[AppCoordinator alloc] initWithRootVC:root];
     self.window.rootViewController = root;
     [self.appCoordinator start];
+    [MainModuleManager injectAllDependencyWith:self.appCoordinator];
     [self.window makeKeyAndVisible];
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

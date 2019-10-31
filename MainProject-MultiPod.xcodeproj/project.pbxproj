@@ -10,12 +10,14 @@
 		32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32049194236AE30C00C53E33 /* MainTabBarViewController.m */; };
 		8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC7D2367388C0009AEF7 /* AppCoordinator.m */; };
 		8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456AC8023673B700009AEF7 /* PayViewController.storyboard */; };
+		8456AC88236B30490009AEF7 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC86236B30490009AEF7 /* AccountViewController.m */; };
+		8456AC89236B30490009AEF7 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456AC87236B30490009AEF7 /* AccountViewController.xib */; };
+		8456AC8C236B42590009AEF7 /* AccountVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC8B236B42590009AEF7 /* AccountVM.m */; };
 		84D21F1B232D13B800859622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1A232D13B800859622 /* AppDelegate.m */; };
 		84D21F1E232D13B800859622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1D232D13B800859622 /* ViewController.m */; };
 		84D21F23232D13BB00859622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F22232D13BB00859622 /* Assets.xcassets */; };
 		84D21F26232D13BB00859622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F24232D13BB00859622 /* LaunchScreen.storyboard */; };
 		84D21F29232D13BB00859622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F28232D13BB00859622 /* main.m */; };
-		84D796792332686700F5538E /* MainCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D796782332686700F5538E /* MainCoordinator.m */; };
 		84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7967B23326B2400F5538E /* MainModuleManager.m */; };
 		84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7967D23326CEB00F5538E /* BPHttpClient.m */; };
 		84D796822332717200F5538E /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D796812332717200F5538E /* PayViewController.m */; };
@@ -29,6 +31,11 @@
 		8456AC7C2367388C0009AEF7 /* AppCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinator.h; sourceTree = "<group>"; };
 		8456AC7D2367388C0009AEF7 /* AppCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoordinator.m; sourceTree = "<group>"; };
 		8456AC8023673B700009AEF7 /* PayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayViewController.storyboard; sourceTree = "<group>"; };
+		8456AC85236B30490009AEF7 /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		8456AC86236B30490009AEF7 /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		8456AC87236B30490009AEF7 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		8456AC8A236B42590009AEF7 /* AccountVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountVM.h; sourceTree = "<group>"; };
+		8456AC8B236B42590009AEF7 /* AccountVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountVM.m; sourceTree = "<group>"; };
 		84D21F16232D13B800859622 /* MainProject-MultiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainProject-MultiPod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D21F19232D13B800859622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D21F1A232D13B800859622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,8 +45,6 @@
 		84D21F25232D13BB00859622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D21F27232D13BB00859622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D21F28232D13BB00859622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84D796772332686700F5538E /* MainCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCoordinator.h; sourceTree = "<group>"; };
-		84D796782332686700F5538E /* MainCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCoordinator.m; sourceTree = "<group>"; };
 		84D7967A23326B2400F5538E /* MainModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModuleManager.h; sourceTree = "<group>"; };
 		84D7967B23326B2400F5538E /* MainModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModuleManager.m; sourceTree = "<group>"; };
 		84D7967D23326CEB00F5538E /* BPHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPHttpClient.m; sourceTree = "<group>"; };
@@ -108,8 +113,11 @@
 				84D21F1D232D13B800859622 /* ViewController.m */,
 				84D796802332717200F5538E /* PayViewController.h */,
 				84D796812332717200F5538E /* PayViewController.m */,
-				84D796772332686700F5538E /* MainCoordinator.h */,
-				84D796782332686700F5538E /* MainCoordinator.m */,
+				8456AC8A236B42590009AEF7 /* AccountVM.h */,
+				8456AC8B236B42590009AEF7 /* AccountVM.m */,
+				8456AC85236B30490009AEF7 /* AccountViewController.h */,
+				8456AC86236B30490009AEF7 /* AccountViewController.m */,
+				8456AC87236B30490009AEF7 /* AccountViewController.xib */,
 				84D7967E23326CEB00F5538E /* BPHttpClient.h */,
 				84D7967D23326CEB00F5538E /* BPHttpClient.m */,
 				8456AC8023673B700009AEF7 /* PayViewController.storyboard */,
@@ -186,6 +194,7 @@
 			files = (
 				8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */,
 				84D21F26232D13BB00859622 /* LaunchScreen.storyboard in Resources */,
+				8456AC89236B30490009AEF7 /* AccountViewController.xib in Resources */,
 				84D21F23232D13BB00859622 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,8 +252,9 @@
 				84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */,
 				84D796822332717200F5538E /* PayViewController.m in Sources */,
 				84D21F1E232D13B800859622 /* ViewController.m in Sources */,
+				8456AC8C236B42590009AEF7 /* AccountVM.m in Sources */,
+				8456AC88236B30490009AEF7 /* AccountViewController.m in Sources */,
 				84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */,
-				84D796792332686700F5538E /* MainCoordinator.m in Sources */,
 				32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */,
 				84D21F29232D13BB00859622 /* main.m in Sources */,
 				84D21F1B232D13B800859622 /* AppDelegate.m in Sources */,

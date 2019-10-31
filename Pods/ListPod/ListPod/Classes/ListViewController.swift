@@ -68,12 +68,3 @@ class ListCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
-
-extension ListCoordinator: ListViewControllerDelegate{
-    public func onSelect(item: ListItem) {
-        let detail = DetailViewController(item: item)
-        detail.delegate = self
-        self.rootVC?.pushViewController(detail, animated: true)
-    }
-    
-}

@@ -10,11 +10,21 @@
 #import <UIKit/UIKit.h>
 #import <XDCoordinator-umbrella.h>
 #import "MainTabBarViewController.h"
+#import <ListPod-Swift.h>
+#import <BPDependency.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
- 
+
 @interface AppCoordinator : BaseCoordinator<MainTabBarViewController *>
+@end
+
+@interface AppCoordinator (ListPodCoordinatorTypeImp)<ListPodCoordinatorType>
+
+@end
+
+@interface AppCoordinator (LoginCoordinatorDelegateImp)<LoginCoordinatorDelegate>
+
 @end
 
 NS_ASSUME_NONNULL_END

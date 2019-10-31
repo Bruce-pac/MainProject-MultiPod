@@ -35,7 +35,7 @@
 }
 
 - (void)onTapCloseBtnWith:(UIViewController *)vc{
-    [[[LoginModuleManager shared] dependency].coordinator closeLoginFlow];
+    [[[LoginModuleManager shared] dependency].coordinator closeLoginFlow:self];
 }
 
 @end

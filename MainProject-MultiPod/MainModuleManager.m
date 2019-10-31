@@ -9,12 +9,13 @@
 #import "MainModuleManager.h"
 #import <ListPod-Swift.h>
 #import <LoginPod/LoginModuleManager.h>
-#import "MainCoordinator.h"
 #import "BPHttpClient.h"
+#import "AppCoordinator.h"
 
 @implementation MainModuleManager
-+ (void)injectAllDependency{
-    [[ModuleManager shared] injectDependency:[[Dependency alloc] initWithCoordinator:[MainCoordinator new]]];
-    [[LoginModuleManager shared] injectDependency:[[BPDependency alloc] initWithCoordinator:[MainCoordinator new] httpClient:[BPHttpClient new]]];
++ (void)injectAllDependencyWith:(AppCoordinator *)appFlow{
+
+    [[ModuleManager shared] injectDependency:[[Dependency alloc] initWithCoordinator:appFlow]];
+    [[LoginModuleManager shared] injectDependency:[[BPDependency alloc] initWithCoordinator:appFlow httpClient:[BPHttpClient new]]];
 }
 @end

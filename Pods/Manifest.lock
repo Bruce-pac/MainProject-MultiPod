@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ListPod:
-    :commit: 0073a0dd21ab3c0ffac555aa35a26eb6073d72e3
+    :commit: 261735cfcbffd3273e3f9a6f8ec044d474f98623
     :git: https://github.com/Bruce-pac/ListPod.git
   LoginPod:
-    :commit: 0ae1af27045a691c4648c3e9dd1cd8151c50dfb9
+    :commit: 8f932824646e437585113768c76abaa723387793
     :git: https://github.com/Bruce-pac/LoginPod.git
   XDCoordinator:
     :commit: 011e35dbaa962bf1c5462f82ddabe2af780cfba2

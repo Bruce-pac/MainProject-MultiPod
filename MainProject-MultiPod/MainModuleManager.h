@@ -10,8 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class AppCoordinator;
+
 @interface MainModuleManager : NSObject
-+ (void)injectAllDependency;
++ (void)injectAllDependencyWith:(AppCoordinator *)appFlow;
 @end
 
 NS_ASSUME_NONNULL_END

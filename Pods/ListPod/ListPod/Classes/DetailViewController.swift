@@ -11,7 +11,7 @@ protocol DetailViewControllerDelegate: AnyObject {
     func onTapPay(_ vc: DetailViewController)
 }
 
-public class DetailViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     lazy var textView: UITextView = {
         let textView = UITextView(frame: self.view.bounds)
@@ -34,7 +34,7 @@ public class DetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(textView)
         textView.text = """
@@ -49,11 +49,5 @@ public class DetailViewController: UIViewController {
 
     @objc func pay() {
         delegate?.onTapPay(self)
-    }
-}
-
-extension ListCoordinator: DetailViewControllerDelegate{
-    public func onTapPay(_ vc: DetailViewController) {
-        ModuleManager.shared.dependency?.coordinator.jumpPayPage(based: vc, with: vc.item)
     }
 }
