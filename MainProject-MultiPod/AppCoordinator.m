@@ -25,6 +25,7 @@
     UINavigationController *listNav = [UINavigationController new];
     id<Coordinator> listCoordinator = [[ListCoordinatorFactory new] makeCoordinatorWith:listNav];
     [listCoordinator start];
+    listNav.topViewController.title = @"list";
     [self.childCoordinators addObject:listCoordinator];
 
     AccountVM *vm = [AccountVM new];
