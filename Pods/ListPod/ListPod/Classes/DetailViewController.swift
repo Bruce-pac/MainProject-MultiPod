@@ -71,6 +71,7 @@ class DetailTestBViewController: UIViewController {
     lazy var accountBtn: UIButton = {
         let btn = UIButton(type: .custom)
         btn.setTitle("去Account个人中心", for: .normal)
+        btn.setTitleColor(.black, for: .normal)
         btn.addTarget(self, action: #selector(onTapAccountBtn(_:)), for: .touchUpInside)
         return btn
     }()
@@ -103,7 +104,7 @@ class DetailTestBViewController: UIViewController {
         super.viewDidLayoutSubviews()
         imageView.frame = CGRect(x: 100, y: 200, width: 100, height: 100)
         textView.frame = CGRect(x: 0, y: imageView.frame.maxY + 50, width: view.frame.width, height: 300)
-        accountBtn.frame = CGRect(x: 100, y: 100, width: 30, height: 30)
+        accountBtn.frame = CGRect(x: 100, y: 100, width: 200, height: 30)
     }
 
     @objc func onTapAccountBtn(_ sender: UIButton) {

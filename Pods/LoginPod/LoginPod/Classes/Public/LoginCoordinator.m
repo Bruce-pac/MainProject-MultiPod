@@ -2,7 +2,7 @@
 //  LoginCoordinator.m
 //  LoginPod
 //
-//  Created by 顾鑫烨 on 2019/10/30.
+//  Created by Bruce on 2019/10/30.
 //
 
 #import "LoginCoordinator.h"
@@ -10,6 +10,10 @@
 #import "LoginViewModel.h"
 #import "LoginModuleManager.h"
 #import "UserInfo.h"
+
+@interface LoginCoordinator ()<LoginViewControllerDelegate>
+
+@end
 
 @implementation LoginCoordinator
 - (void)start{

@@ -13,8 +13,6 @@
 #import "BPDependency.h"
 #import "LoginCoordinator.h"
 #import "LoginModuleManager.h"
-#import "LoginViewController.h"
-#import "LoginViewModel.h"
 #import "UserInfo.h"
 
 FOUNDATION_EXPORT double LoginPodVersionNumber;

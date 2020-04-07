@@ -2,7 +2,7 @@
 //  LoginViewModel.h
 //  LoginPod
 //
-//  Created by 顾鑫烨 on 2019/10/30.
+//  Created by Bruce on 2019/10/30.
 //
 
 #import <Foundation/Foundation.h>

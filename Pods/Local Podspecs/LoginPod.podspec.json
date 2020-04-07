@@ -25,6 +25,7 @@
       "LoginPod/Classes/**/*.{xib,storyboard}"
     ]
   },
+  "public_header_files": "LoginPod/Classes/Public/*.h",
   "dependencies": {
     "XDCoordinator": [
 
