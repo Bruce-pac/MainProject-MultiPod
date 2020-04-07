@@ -20,9 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) void (^didCompleted)(__kindof LBBaseCoordinator *coordinator);
 
 - (void)start;
+
 - (void)startChildCoordinator:(id<LBCoordinating>)child;
 - (void)stopChildCoordinator:(id<LBCoordinating>)child;
-
+- (void)addChildCoordinator:(id<LBCoordinating>)child;
 @end
 
 NS_ASSUME_NONNULL_END

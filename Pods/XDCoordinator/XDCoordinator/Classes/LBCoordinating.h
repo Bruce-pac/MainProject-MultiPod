@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)start;
 - (void)startChildCoordinator:(id<LBCoordinating>)child;
 - (void)stopChildCoordinator:(id<LBCoordinating>)child;
+- (void)addChildCoordinator:(id<LBCoordinating>)child;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -9,12 +9,12 @@
 #import "AppCoordinator.h"
 #import <ListPod/ListPod-Swift.h>
 #import <LoginCoordinator.h>
-#import "AccountViewController.h"
-#import "PayViewController.h"
+#import "AccountCoordinator.h"
+#import "PayCoordinator.h"
 
-@interface AppCoordinator ()<AccountViewControllerDelegate>
+@interface AppCoordinator ()<AccountCoordinatorDelegate>
 @property (nonatomic, weak) MainTabBarViewController *rootVC;
-@property (nonatomic, strong) AccountVM *accountVM;//简单起见
+@property (nonatomic, weak) AccountCoordinator *accountCoordinator;
 @end
 
 @implementation AppCoordinator
@@ -26,17 +26,14 @@
     ListCoordinator *listCoordinator = [[ListCoordinator alloc] initWithRootVC:listNav];
     [self startChildCoordinator:listCoordinator];
 
-    AccountVM *vm = [AccountVM new];
-    self.accountVM = vm;
-    AccountViewController *account = [[AccountViewController alloc] initWithViewModel:vm];
+    UINavigationController *accountNav = [UINavigationController new];
+    AccountCoordinator *account = [[AccountCoordinator alloc] initWithRootVC:accountNav];
     account.delegate = self;
-    account.title = @"account";
+    [self startChildCoordinator:account];
+    self.accountCoordinator = account;
+    accountNav.title = @"account";
     listNav.title = @"list";
-    self.rootVC.viewControllers = @[listNav, account];
-}
-
-- (void)onTapAccountBtn:(nonnull AccountViewController *)vc {
-    [self startLoginFlow];
+    self.rootVC.viewControllers = @[listNav, accountNav];
 }
 
 - (void)startLoginFlow{
@@ -44,6 +41,19 @@
     LoginCoordinator *loginFlow = [[LoginCoordinator alloc] initWithRootVC:loginRoot];
     [self startChildCoordinator:loginFlow];
     [self.rootVC presentViewController:loginRoot animated:YES completion:nil];
+}
+
+- (void)accountCoordinatorOnTapAvatar:(nonnull AccountCoordinator *)account {
+    [self startLoginFlow];
+}
+
+/*
+ 层级深的时候利用响应者链也可以跨组件调用
+ */
+- (void)lb_coordinatingMessage:(LBCoordinatorEventName)event object:(id)object userInfo:(NSDictionary *)userInfo{
+    if ([event isEqualToString: LBCoordinatorEvent.detailBToAccount]) {
+        self.rootVC.selectedViewController = self.accountCoordinator.rootVC;
+    }
 }
 
 @end
@@ -55,11 +65,12 @@
     BOOL isLogin = num % 2;
 
     if (isLogin) {
-        // TODO
-        PayViewController *pay = [[UIStoryboard storyboardWithName:@"PayViewController" bundle:nil] instantiateViewControllerWithIdentifier:@"PayViewController"];
-        pay.pId = data.pId;
-        NSLog(@"%ld",(long)data.pId);
-        [coordinator.rootVC pushViewController:pay animated:YES];
+        PayCoordinator *pay = [[PayCoordinator alloc] initWithRootVC:coordinator.rootVC];
+        pay.didCompleted = ^(__kindof LBBaseCoordinator * _Nonnull coordinator) {
+            [self stopChildCoordinator:coordinator];
+        };
+        [self addChildCoordinator:pay];
+        [pay startWithPId:data.pId];
     }else{
         [self startLoginFlow];
     }
@@ -80,8 +91,8 @@
 }
 
 - (void)loginFlow:(LoginCoordinator *)loginFlow onLoginSuccess:(UserInfo *)info{
-    [self.accountVM updateUserInfo:info];
     [self stopChildCoordinator:loginFlow];
+    [self.accountCoordinator updateUserInfo:info];
 }
 
 @end

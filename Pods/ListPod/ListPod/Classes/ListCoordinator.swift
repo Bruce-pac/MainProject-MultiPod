@@ -2,11 +2,19 @@
 //  ListCoordinator.swift
 //  ListPod
 //
-//  Created by 顾鑫烨 on 2019/10/31.
+//  Created by Bruce on 2019/10/31.
 //
 
 import Foundation
 import XDCoordinator
+
+@objcMembers public class LBCoordinatorEvent: NSObject {
+    public static let detailBToAccount = LBCoordinatorEventName.detailBToAccount
+}
+
+public extension LBCoordinatorEventName {
+    static var detailBToAccount = LBCoordinatorEventName(rawValue: "detailBToAccount")
+}
 
 @objcMembers public class ListCoordinator: LBNavigationCoordinator {
     override public func start() {
@@ -31,7 +39,7 @@ extension ListCoordinator: ListViewControllerDelegate{
             self.rootVC.pushViewController(detail, animated: true)
         }
     }
-    
+
 }
 
 extension ListCoordinator: DetailTestAViewControllerDelegate {

@@ -13,6 +13,8 @@
 		8456AC88236B30490009AEF7 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC86236B30490009AEF7 /* AccountViewController.m */; };
 		8456AC89236B30490009AEF7 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456AC87236B30490009AEF7 /* AccountViewController.xib */; };
 		8456AC8C236B42590009AEF7 /* AccountVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC8B236B42590009AEF7 /* AccountVM.m */; };
+		847D4ECA243C88A7006EB3A3 /* AccountCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */; };
+		847D4ECD243C8EB1006EB3A3 /* PayCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */; };
 		84D21F1B232D13B800859622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1A232D13B800859622 /* AppDelegate.m */; };
 		84D21F1E232D13B800859622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1D232D13B800859622 /* ViewController.m */; };
 		84D21F23232D13BB00859622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F22232D13BB00859622 /* Assets.xcassets */; };
@@ -36,6 +38,10 @@
 		8456AC87236B30490009AEF7 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
 		8456AC8A236B42590009AEF7 /* AccountVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountVM.h; sourceTree = "<group>"; };
 		8456AC8B236B42590009AEF7 /* AccountVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountVM.m; sourceTree = "<group>"; };
+		847D4EC8243C88A7006EB3A3 /* AccountCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountCoordinator.h; sourceTree = "<group>"; };
+		847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountCoordinator.m; sourceTree = "<group>"; };
+		847D4ECB243C8EB1006EB3A3 /* PayCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayCoordinator.h; sourceTree = "<group>"; };
+		847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCoordinator.m; sourceTree = "<group>"; };
 		84D21F16232D13B800859622 /* MainProject-MultiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainProject-MultiPod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D21F19232D13B800859622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D21F1A232D13B800859622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +98,8 @@
 				8456AC85236B30490009AEF7 /* AccountViewController.h */,
 				8456AC86236B30490009AEF7 /* AccountViewController.m */,
 				8456AC87236B30490009AEF7 /* AccountViewController.xib */,
+				847D4EC8243C88A7006EB3A3 /* AccountCoordinator.h */,
+				847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */,
 			);
 			name = Accout;
 			sourceTree = "<group>";
@@ -102,6 +110,8 @@
 				84D796802332717200F5538E /* PayViewController.h */,
 				84D796812332717200F5538E /* PayViewController.m */,
 				8456AC8023673B700009AEF7 /* PayViewController.storyboard */,
+				847D4ECB243C8EB1006EB3A3 /* PayCoordinator.h */,
+				847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */,
 			);
 			name = Pay;
 			sourceTree = "<group>";
@@ -265,10 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */,
+				847D4ECD243C8EB1006EB3A3 /* PayCoordinator.m in Sources */,
 				84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */,
 				84D796822332717200F5538E /* PayViewController.m in Sources */,
 				84D21F1E232D13B800859622 /* ViewController.m in Sources */,
 				8456AC8C236B42590009AEF7 /* AccountVM.m in Sources */,
+				847D4ECA243C88A7006EB3A3 /* AccountCoordinator.m in Sources */,
 				8456AC88236B30490009AEF7 /* AccountViewController.m in Sources */,
 				84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */,
 				32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */,

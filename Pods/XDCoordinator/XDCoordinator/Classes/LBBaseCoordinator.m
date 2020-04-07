@@ -21,9 +21,13 @@
     NSAssert(NO, @"%@ not implementated '-(void)start'", [self class]);
 }
 
-- (void)startChildCoordinator:(id<LBCoordinating>)child{
+- (void)addChildCoordinator:(id<LBCoordinating>)child{
     [self.childCoordinatorContainer setObject:child forKey:child.identifier];
     child.parentCoordinator = self;
+}
+
+- (void)startChildCoordinator:(id<LBCoordinating>)child{
+    [self addChildCoordinator:child];
     [child start];
 }
 

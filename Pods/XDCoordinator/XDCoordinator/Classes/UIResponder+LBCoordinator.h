@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NSString* LBCoordinatorEventName NS_STRING_ENUM;
+typedef NSString* LBCoordinatorEventName NS_TYPED_EXTENSIBLE_ENUM;
 
 NS_ASSUME_NONNULL_BEGIN
 

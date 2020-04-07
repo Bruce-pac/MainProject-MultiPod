@@ -2,7 +2,7 @@
 //  ListItem.swift
 //  ListPod
 //
-//  Created by 顾鑫烨 on 2019/10/31.
+//  Created by Bruce on 2019/10/31.
 //
 
 import Foundation
