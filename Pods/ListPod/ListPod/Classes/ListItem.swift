@@ -7,6 +7,22 @@
 
 import Foundation
 
+@objcMembers public class ListItemOC: NSObject {
+
+    let listItem: ListItem
+
+    init(item: ListItem) {
+        listItem = item
+    }
+
+    public var pId: Int {
+        return listItem.id
+    }
+    public var title: String {
+        return listItem.title
+    }
+}
+
 struct ListItem {
     let id: Int
     let title: String

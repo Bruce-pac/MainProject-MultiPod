@@ -20,13 +20,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ListPod:
-    :commit: 261735cfcbffd3273e3f9a6f8ec044d474f98623
+    :commit: e472e2c17b6541c6efbbdf05d9f5c74fca68adc1
     :git: https://github.com/Bruce-pac/ListPod.git
   LoginPod:
-    :commit: 8f932824646e437585113768c76abaa723387793
+    :commit: 5c7a83511f56013429f84b9ab89f49d5ba182919
     :git: https://github.com/Bruce-pac/LoginPod.git
   XDCoordinator:
-    :commit: 011e35dbaa962bf1c5462f82ddabe2af780cfba2
+    :commit: 83f57c002ec03e068cbbfc44474f9a11df844ec2
     :git: https://github.com/Bruce-pac/XDCoordinator.git
 
 SPEC CHECKSUMS:
@@ -36,4 +36,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 54e78341738691a59e8aa6cfdfeeeebaaea8bf2e
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

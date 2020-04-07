@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class UserInfo, LoginCoordinator;
 @protocol LoginCoordinatorDelegate <NSObject>
--(void)onLoginSuccess:(UserInfo *)info;
--(void)onLoginFailure;
--(void)closeLoginFlow:(LoginCoordinator *)loginFlow;
+-(void)loginFlow:(LoginCoordinator *)loginFlow onLoginSuccess:(UserInfo *)info;
+-(void)loginFlowOnFailure:(LoginCoordinator *)loginFlow;
+-(void)loginFlowOnTapClose:(LoginCoordinator *)loginFlow;
 @end
 
 @protocol LoginHttpClientType <NSObject>

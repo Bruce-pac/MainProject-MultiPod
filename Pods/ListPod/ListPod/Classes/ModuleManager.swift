@@ -8,9 +8,9 @@
 import Foundation
 
 @objcMembers public class Dependency: NSObject {
-    let coordinator: ListPodCoordinatorType
+    let coordinator: ListModuleCoordinatorDelegate
 
-    public init(coordinator: ListPodCoordinatorType) {
+    public init(coordinator: ListModuleCoordinatorDelegate) {
         self.coordinator = coordinator
     }
 }

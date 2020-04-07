@@ -10,9 +10,12 @@
 #endif
 #endif
 
-#import "BaseCoordinator.h"
-#import "Coordinator.h"
-#import "NavigationCoordinator.h"
+#import "LBBaseCoordinator.h"
+#import "LBCoordinating.h"
+#import "LBGenericCoordinator.h"
+#import "LBNavigationCoordinator.h"
+#import "UIResponder+LBCoordinator.h"
+#import "UIViewController+LBCoordinator.h"
 
 FOUNDATION_EXPORT double XDCoordinatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char XDCoordinatorVersionString[];

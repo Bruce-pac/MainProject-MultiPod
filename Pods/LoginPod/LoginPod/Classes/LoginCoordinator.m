@@ -25,9 +25,9 @@
     [alert addAction:[UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [vc dismissViewControllerAnimated:result completion:^{
             if (result) {
-                [[[LoginModuleManager shared] dependency].coordinator onLoginSuccess:[UserInfo new]];
+                [[[LoginModuleManager shared] dependency].coordinator loginFlow:self onLoginSuccess:[UserInfo new]];
             }else{
-                [[[LoginModuleManager shared] dependency].coordinator onLoginFailure];
+                [[[LoginModuleManager shared] dependency].coordinator loginFlowOnFailure:self];
             }
         }];
     }]];
@@ -35,7 +35,7 @@
 }
 
 - (void)onTapCloseBtnWith:(UIViewController *)vc{
-    [[[LoginModuleManager shared] dependency].coordinator closeLoginFlow:self];
+    [[[LoginModuleManager shared] dependency].coordinator loginFlowOnTapClose:self];
 }
 
 @end

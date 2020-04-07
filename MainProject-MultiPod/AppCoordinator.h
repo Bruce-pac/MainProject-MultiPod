@@ -16,10 +16,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AppCoordinator : BaseCoordinator<MainTabBarViewController *>
+@interface AppCoordinator : LBGenericCoordinator<MainTabBarViewController *>
 @end
 
-@interface AppCoordinator (ListPodCoordinatorTypeImp)<ListPodCoordinatorType>
+@interface AppCoordinator (ListPodCoordinatorTypeImp)<ListModuleCoordinatorDelegate>
 
 @end
 
