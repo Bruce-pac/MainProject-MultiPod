@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <XDCoordinator-umbrella.h>
+#import <LBCoordinator/LBCoordinator.h>
 #import "MainTabBarViewController.h"
 #import <ListPod-Swift.h>
 #import <BPDependency.h>
+#import "PayCoordinator.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -24,6 +25,10 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface AppCoordinator (LoginCoordinatorDelegateImp)<LoginCoordinatorDelegate>
+
+@end
+
+@interface AppCoordinator (PayCoordinatorDelegateImp)<PayCoordinatorDelegate>
 
 @end
 

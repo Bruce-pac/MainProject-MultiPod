@@ -10,7 +10,6 @@
 #import <ListPod/ListPod-Swift.h>
 #import <LoginCoordinator.h>
 #import "AccountCoordinator.h"
-#import "PayCoordinator.h"
 
 @interface AppCoordinator ()<AccountCoordinatorDelegate>
 @property (nonatomic, weak) MainTabBarViewController *rootVC;
@@ -66,6 +65,7 @@
 
     if (isLogin) {
         PayCoordinator *pay = [[PayCoordinator alloc] initWithRootVC:coordinator.rootVC];
+        pay.delegate = self;
         pay.didCompleted = ^(__kindof LBBaseCoordinator * _Nonnull coordinator) {
             [self stopChildCoordinator:coordinator];
         };
@@ -93,6 +93,14 @@
 - (void)loginFlow:(LoginCoordinator *)loginFlow onLoginSuccess:(UserInfo *)info{
     [self stopChildCoordinator:loginFlow];
     [self.accountCoordinator updateUserInfo:info];
+}
+
+@end
+
+@implementation AppCoordinator (PayCoordinatorDelegateImp)
+
+- (void)payFlow:(PayCoordinator *)payFlow didFinishWithStatus:(BOOL)payStatus{
+    NSLog(@"%d", payStatus);
 }
 
 @end

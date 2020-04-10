@@ -161,14 +161,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/LBCoordinator/LBCoordinator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ListPod/ListPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LoginPod/LoginPod.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/XDCoordinator/XDCoordinator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/LBCoordinator/LBCoordinator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ListPod/ListPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LoginPod/LoginPod.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/XDCoordinator/XDCoordinator.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

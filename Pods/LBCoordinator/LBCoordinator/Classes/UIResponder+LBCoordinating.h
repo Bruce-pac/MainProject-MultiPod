@@ -12,7 +12,7 @@ typedef NSString* LBCoordinatorEventName NS_TYPED_EXTENSIBLE_ENUM;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIResponder (LBCoordinator)
+@interface UIResponder (LBCoordinating)
 @property (nonatomic, readonly) UIResponder *coordinatingResponder;
 
 - (void)lb_coordinatingMessage:(LBCoordinatorEventName)event

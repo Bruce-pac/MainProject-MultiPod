@@ -17,6 +17,13 @@
 
 - (void)start{
     PayViewController *pay = [[UIStoryboard storyboardWithName:@"PayViewController" bundle:nil] instantiateViewControllerWithIdentifier:@"PayViewController"];
+    PayViewModel *vm = [[PayViewModel alloc] init];
+    pay.payViewModel = vm;
+    [vm subscribePayStatus:^(BOOL status) {
+        if ([self.delegate respondsToSelector:@selector(payFlow:didFinishWithStatus:)]) {
+            [self.delegate payFlow:self didFinishWithStatus:status];
+        }
+    }];
     self.entranceVC = pay;
     [self.rootVC pushViewController:pay animated:YES];
 }

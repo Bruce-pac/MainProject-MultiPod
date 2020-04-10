@@ -6,7 +6,7 @@
 //  Copyright © 2020 Bruce. All rights reserved.
 //
 
-#import <XDCoordinator/LBNavigationCoordinator.h>
+#import <LBCoordinator/LBNavigationCoordinator.h>
 #import <UserInfo.h>
 
 NS_ASSUME_NONNULL_BEGIN

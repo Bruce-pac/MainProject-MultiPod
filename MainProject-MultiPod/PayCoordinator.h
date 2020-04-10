@@ -6,11 +6,19 @@
 //  Copyright © 2020 Bruce. All rights reserved.
 //
 
-#import <XDCoordinator/LBNavigationCoordinator.h>
+#import <LBCoordinator/LBNavigationCoordinator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class PayCoordinator;
+@protocol PayCoordinatorDelegate <NSObject>
+
+- (void)payFlow:(PayCoordinator *)payFlow didFinishWithStatus:(BOOL)payStatus;
+
+@end
+
 @interface PayCoordinator : LBNavigationCoordinator
+@property (nonatomic, weak) id<PayCoordinatorDelegate> delegate;
 - (void)startWithPId:(NSInteger)pId;
 @end
 

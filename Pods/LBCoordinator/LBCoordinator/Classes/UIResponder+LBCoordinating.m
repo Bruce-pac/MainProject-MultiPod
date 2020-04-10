@@ -6,10 +6,10 @@
 //  Copyright © 2019 Bruce. All rights reserved.
 //
 
-#import "UIResponder+LBCoordinator.h"
+#import "UIResponder+LBCoordinating.h"
 
 
-@implementation UIResponder (LBCoordinator)
+@implementation UIResponder (LBCoordinating)
 - (UIResponder *)coordinatingResponder{
     return self.nextResponder;
 }

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import XDCoordinator
+import LBCoordinator
 
 protocol DetailTestAViewControllerDelegate: AnyObject {
     func onTapPay(_ vc: DetailTestAViewController)

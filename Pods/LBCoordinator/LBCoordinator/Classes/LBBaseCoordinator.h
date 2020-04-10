@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "LBCoordinating.h"
-#import "UIResponder+LBCoordinator.h"
+#import "UIResponder+LBCoordinating.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
+/*
+ @abstract class.
+ 一般只需要重写 -start 方法。
+ */
 @interface LBBaseCoordinator : UIResponder<LBCoordinating>
 
 @property (nonatomic, copy, readonly) NSString *identifier;

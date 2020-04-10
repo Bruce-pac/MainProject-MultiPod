@@ -1,39 +1,39 @@
 PODS:
+  - LBCoordinator (0.1.0)
   - ListPod (0.1.0):
-    - XDCoordinator
+    - LBCoordinator
   - LoginPod (0.1.0):
-    - XDCoordinator
-  - XDCoordinator (0.1.0)
+    - LBCoordinator
 
 DEPENDENCIES:
+  - LBCoordinator (from `https://github.com/Bruce-pac/LBCoordinator.git`)
   - ListPod (from `https://github.com/Bruce-pac/ListPod.git`)
   - LoginPod (from `https://github.com/Bruce-pac/LoginPod.git`)
-  - XDCoordinator (from `https://github.com/Bruce-pac/XDCoordinator.git`)
 
 EXTERNAL SOURCES:
+  LBCoordinator:
+    :git: https://github.com/Bruce-pac/LBCoordinator.git
   ListPod:
     :git: https://github.com/Bruce-pac/ListPod.git
   LoginPod:
     :git: https://github.com/Bruce-pac/LoginPod.git
-  XDCoordinator:
-    :git: https://github.com/Bruce-pac/XDCoordinator.git
 
 CHECKOUT OPTIONS:
+  LBCoordinator:
+    :commit: 0c49e348ae54453deebe8bef73256f553d29778e
+    :git: https://github.com/Bruce-pac/LBCoordinator.git
   ListPod:
-    :commit: 647b1bf14d04d8262c47b80aa1bb65df911ba476
+    :commit: d586b1d0fffd29a666085e26eab8747563fffb47
     :git: https://github.com/Bruce-pac/ListPod.git
   LoginPod:
-    :commit: ceb8cfd8de10a88b5762f10ce97bf80f3a98a37d
+    :commit: f705ed56fc3631eeaf7f2b64401af066e19f9e96
     :git: https://github.com/Bruce-pac/LoginPod.git
-  XDCoordinator:
-    :commit: 7ef96f383d7b3a597d1abfe1c76ad79c52825947
-    :git: https://github.com/Bruce-pac/XDCoordinator.git
 
 SPEC CHECKSUMS:
-  ListPod: 6d42439260eab4001ec9de7c464257ca884ccee9
-  LoginPod: 49eea3a9c7925933407763e1c1dc33c81d9635f2
-  XDCoordinator: 0a79a2a6654b993feabc836e3649650cae486298
+  LBCoordinator: 022457f46029432f0d482e5609c851b9c5fb3ac3
+  ListPod: b0852530616a57a272a63fa747ec5a1d193c20ee
+  LoginPod: ecb60f74c27ad2271d9a7384ce883de07b20dd03
 
-PODFILE CHECKSUM: 54e78341738691a59e8aa6cfdfeeeebaaea8bf2e
+PODFILE CHECKSUM: 8d77ba0b51e526e4dcde87bd1a451003376d9c36
 
 COCOAPODS: 1.8.4

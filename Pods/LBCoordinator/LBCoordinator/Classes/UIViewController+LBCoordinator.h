@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "LBBaseCoordinator.h"
-#import "UIResponder+LBCoordinator.h"
+#import "UIResponder+LBCoordinating.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

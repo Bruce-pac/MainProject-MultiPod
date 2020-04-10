@@ -12,11 +12,12 @@
 
 #import "LBBaseCoordinator.h"
 #import "LBCoordinating.h"
+#import "LBCoordinator.h"
 #import "LBGenericCoordinator.h"
 #import "LBNavigationCoordinator.h"
-#import "UIResponder+LBCoordinator.h"
+#import "UIResponder+LBCoordinating.h"
 #import "UIViewController+LBCoordinator.h"
 
-FOUNDATION_EXPORT double XDCoordinatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char XDCoordinatorVersionString[];
+FOUNDATION_EXPORT double LBCoordinatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char LBCoordinatorVersionString[];
 

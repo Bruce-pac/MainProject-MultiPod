@@ -1,0 +1,6 @@
+framework module LBCoordinator {
+  umbrella header "LBCoordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}

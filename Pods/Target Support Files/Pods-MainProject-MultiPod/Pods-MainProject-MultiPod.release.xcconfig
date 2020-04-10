@@ -1,9 +1,9 @@
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ListPod" "${PODS_CONFIGURATION_BUILD_DIR}/LoginPod" "${PODS_CONFIGURATION_BUILD_DIR}/XDCoordinator"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LBCoordinator" "${PODS_CONFIGURATION_BUILD_DIR}/ListPod" "${PODS_CONFIGURATION_BUILD_DIR}/LoginPod"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ListPod/ListPod.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LoginPod/LoginPod.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/XDCoordinator/XDCoordinator.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LBCoordinator/LBCoordinator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ListPod/ListPod.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LoginPod/LoginPod.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "ListPod" -framework "LoginPod" -framework "XDCoordinator"
+OTHER_LDFLAGS = $(inherited) -framework "LBCoordinator" -framework "ListPod" -framework "LoginPod"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

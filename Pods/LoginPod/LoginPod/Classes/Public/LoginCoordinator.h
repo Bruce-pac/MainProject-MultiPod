@@ -5,7 +5,7 @@
 //  Created by Bruce on 2019/10/30.
 //
 
-#import <XDCoordinator/LBNavigationCoordinator.h>
+#import <LBCoordinator/LBNavigationCoordinator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

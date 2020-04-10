@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import XDCoordinator
+import LBCoordinator
 
 @objc public protocol ListModuleCoordinatorDelegate: AnyObject {
     func listCoordinator(_ coordinator: ListCoordinator, jumpPayPageWith data: ListItemOC)

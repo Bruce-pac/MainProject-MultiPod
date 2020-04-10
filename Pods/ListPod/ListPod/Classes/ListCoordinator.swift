@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import XDCoordinator
+import LBCoordinator
 
 @objcMembers public class LBCoordinatorEvent: NSObject {
     public static let detailBToAccount = LBCoordinatorEventName.detailBToAccount

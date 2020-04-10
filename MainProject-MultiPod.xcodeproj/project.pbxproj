@@ -15,6 +15,7 @@
 		8456AC8C236B42590009AEF7 /* AccountVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC8B236B42590009AEF7 /* AccountVM.m */; };
 		847D4ECA243C88A7006EB3A3 /* AccountCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */; };
 		847D4ECD243C8EB1006EB3A3 /* PayCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */; };
+		847D4ED224404607006EB3A3 /* PayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4ED124404607006EB3A3 /* PayViewModel.m */; };
 		84D21F1B232D13B800859622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1A232D13B800859622 /* AppDelegate.m */; };
 		84D21F1E232D13B800859622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1D232D13B800859622 /* ViewController.m */; };
 		84D21F23232D13BB00859622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F22232D13BB00859622 /* Assets.xcassets */; };
@@ -42,6 +43,8 @@
 		847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountCoordinator.m; sourceTree = "<group>"; };
 		847D4ECB243C8EB1006EB3A3 /* PayCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayCoordinator.h; sourceTree = "<group>"; };
 		847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCoordinator.m; sourceTree = "<group>"; };
+		847D4ED024404607006EB3A3 /* PayViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayViewModel.h; sourceTree = "<group>"; };
+		847D4ED124404607006EB3A3 /* PayViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayViewModel.m; sourceTree = "<group>"; };
 		84D21F16232D13B800859622 /* MainProject-MultiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainProject-MultiPod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D21F19232D13B800859622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D21F1A232D13B800859622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				8456AC8023673B700009AEF7 /* PayViewController.storyboard */,
 				847D4ECB243C8EB1006EB3A3 /* PayCoordinator.h */,
 				847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */,
+				847D4ED024404607006EB3A3 /* PayViewModel.h */,
+				847D4ED124404607006EB3A3 /* PayViewModel.m */,
 			);
 			name = Pay;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			files = (
 				8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */,
 				847D4ECD243C8EB1006EB3A3 /* PayCoordinator.m in Sources */,
+				847D4ED224404607006EB3A3 /* PayViewModel.m in Sources */,
 				84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */,
 				84D796822332717200F5538E /* PayViewController.m in Sources */,
 				84D21F1E232D13B800859622 /* ViewController.m in Sources */,
