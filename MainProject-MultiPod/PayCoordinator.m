@@ -19,7 +19,9 @@
     PayViewController *pay = [[UIStoryboard storyboardWithName:@"PayViewController" bundle:nil] instantiateViewControllerWithIdentifier:@"PayViewController"];
     PayViewModel *vm = [[PayViewModel alloc] init];
     pay.payViewModel = vm;
+    __weak typeof(self) weakSelf = self;
     [vm subscribePayStatus:^(BOOL status) {
+        __strong PayCoordinator* self = weakSelf;
         if ([self.delegate respondsToSelector:@selector(payFlow:didFinishWithStatus:)]) {
             [self.delegate payFlow:self didFinishWithStatus:status];
         }

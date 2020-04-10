@@ -192,7 +192,7 @@
 		84D21F0E232D13B800859622 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Bruce;
 				TargetAttributes = {
 					84D21F15232D13B800859622 = {
@@ -425,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9C824F7FAD5D51FA89ED6F8 /* Pods-MainProject-MultiPod.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -444,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79F584E5217FECCEB2034230 /* Pods-MainProject-MultiPod.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

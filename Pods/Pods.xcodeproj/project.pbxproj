@@ -104,7 +104,7 @@
 		1D50D0EEDA8D5A3FE5DF368BF34DD1C8 /* Pods-MainProject-MultiPod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-MultiPod-frameworks.sh"; sourceTree = "<group>"; };
 		1FB643FD1B62DF6048DB1BBE01A6A5C5 /* ResourceBundle-LoginPod-LoginPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LoginPod-LoginPod-Info.plist"; sourceTree = "<group>"; };
 		1FE0287EEE1C625039675875909DE5CD /* UserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserInfo.h; path = LoginPod/Classes/Public/UserInfo.h; sourceTree = "<group>"; };
-		2C6A2D6906E209E5A67690F5313440A5 /* LoginPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginPod.framework; path = LoginPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6A2D6906E209E5A67690F5313440A5 /* LoginPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA1B521A457D4E67E41F869C5AA988A /* Pods-MainProject-MultiPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-MultiPod-acknowledgements.plist"; sourceTree = "<group>"; };
 		34E4572E429D408C1167FCAF79F6CD8E /* LoginPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginPod-prefix.pch"; sourceTree = "<group>"; };
 		356F4E8867517FDD374CCF567DF96FB6 /* ListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = ListPod/Classes/ListItem.swift; sourceTree = "<group>"; };
@@ -112,11 +112,11 @@
 		415AFD3195A77CFEB67ABFD9EEB007CC /* LBGenericCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBGenericCoordinator.m; path = LBCoordinator/Classes/LBGenericCoordinator.m; sourceTree = "<group>"; };
 		41FEECD679455156E2D5AE5292C5FD2A /* ListPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ListPod-dummy.m"; sourceTree = "<group>"; };
 		43119E40E5039B6C5A067F06AF289930 /* ListCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCoordinator.swift; path = ListPod/Classes/ListCoordinator.swift; sourceTree = "<group>"; };
-		4845CB3533764DC3F423E764CF8C3555 /* Pods_MainProject_MultiPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MainProject_MultiPod.framework; path = "Pods-MainProject-MultiPod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4845CB3533764DC3F423E764CF8C3555 /* Pods_MainProject_MultiPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainProject_MultiPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		488C2EF3D22F8C1487310B971C9F3D9E /* ListPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPod-prefix.pch"; sourceTree = "<group>"; };
 		4961FA490D5C2F594B236C03187B3A50 /* LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinator.h; path = LBCoordinator/Classes/LBCoordinator.h; sourceTree = "<group>"; };
 		4DDA6348358DA6EDEE52A8766B68AD58 /* LoginModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginModuleManager.h; path = LoginPod/Classes/Public/LoginModuleManager.h; sourceTree = "<group>"; };
-		4E44315E261E1CC9BB4A3789910A9B31 /* ListPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListPod.framework; path = ListPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E44315E261E1CC9BB4A3789910A9B31 /* ListPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B539DA126038A0891EAB0E6747B405B /* LBBaseCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBBaseCoordinator.m; path = LBCoordinator/Classes/LBBaseCoordinator.m; sourceTree = "<group>"; };
 		5E44D189103D38B52EA89E969655A853 /* Pods-MainProject-MultiPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainProject-MultiPod.modulemap"; sourceTree = "<group>"; };
@@ -130,19 +130,19 @@
 		7B67788927374AD7E0B13A2B17694558 /* ModuleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleManager.swift; path = ListPod/Classes/ModuleManager.swift; sourceTree = "<group>"; };
 		7EFA8863D5858C455304513389CD3BE3 /* LBNavigationCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBNavigationCoordinator.h; path = LBCoordinator/Classes/LBNavigationCoordinator.h; sourceTree = "<group>"; };
 		8012D87188F837D55FC29E48CC36A856 /* UIResponder+LBCoordinating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+LBCoordinating.m"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.m"; sourceTree = "<group>"; };
-		81ABE4CB66A0B630619590F70BDF8BBE /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBCoordinator.framework; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ABE4CB66A0B630619590F70BDF8BBE /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C7304B2BBF2D061B77CC9363C96BC0 /* ListModuleCoordinatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListModuleCoordinatorDelegate.swift; path = ListPod/Classes/ListModuleCoordinatorDelegate.swift; sourceTree = "<group>"; };
 		864E9D5DAD16AE521669F9844E295AC4 /* Pods-MainProject-MultiPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-MultiPod-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8CE13257185938D652A54E171823A301 /* ListPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPod-umbrella.h"; sourceTree = "<group>"; };
 		8D152E4209F513F409B79A0D5FFD9303 /* LBCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBCoordinator-Info.plist"; sourceTree = "<group>"; };
 		95163EC0C27EC64B74AB78F24728FD74 /* LoginPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginPod-Info.plist"; sourceTree = "<group>"; };
 		9CC0D0B8602D9DDF141CA5F22A5F82B2 /* LoginModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginModuleManager.m; path = LoginPod/Classes/Public/LoginModuleManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F51E88344E929686BDC3572C9F13B09 /* LoginPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginPod-dummy.m"; sourceTree = "<group>"; };
 		A04D722034BA19D7BC930414295CCF30 /* LoginViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewModel.m; path = LoginPod/Classes/Private/LoginViewModel.m; sourceTree = "<group>"; };
 		A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginPod.xcconfig; sourceTree = "<group>"; };
 		A560A9CBB5EB5BD959CFCC288577BBAD /* UIResponder+LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+LBCoordinating.h"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.h"; sourceTree = "<group>"; };
-		A8D829E1DF2B9E975E6F4AF1A012E548 /* LoginPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoginPod.bundle; path = "LoginPod-LoginPod.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D829E1DF2B9E975E6F4AF1A012E548 /* LoginPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8612D5F15BF7D8FA74036B29AB4FAD /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = LoginPod/Classes/Private/LoginViewController.h; sourceTree = "<group>"; };
 		AF738E412233AB796DA4AB5F42553E92 /* Pods-MainProject-MultiPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject-MultiPod.release.xcconfig"; sourceTree = "<group>"; };
 		BD531A6CFC1F974EFC49C447ED29D2F5 /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ListPod/Classes/ListViewController.swift; sourceTree = "<group>"; };
@@ -330,7 +330,6 @@
 				FE824923CCCB62C1348614F857D82332 /* Resources */,
 				0AA3309445DBC5DC46E4139433757084 /* Support Files */,
 			);
-			name = LoginPod;
 			path = LoginPod;
 			sourceTree = "<group>";
 		};
@@ -351,7 +350,6 @@
 				C984A33347FCFC0B73932B8C9400552F /* UIViewController+LBCoordinator.m */,
 				5E0B2AE16EF69868FF6E985B996871E4 /* Support Files */,
 			);
-			name = LBCoordinator;
 			path = LBCoordinator;
 			sourceTree = "<group>";
 		};
@@ -377,7 +375,6 @@
 				7B67788927374AD7E0B13A2B17694558 /* ModuleManager.swift */,
 				88B5E12BC6DE483DF3CF8A5F8F4B69AB /* Support Files */,
 			);
-			name = ListPod;
 			path = ListPod;
 			sourceTree = "<group>";
 		};
@@ -552,7 +549,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -859,7 +856,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6399D089989202B03E4066F7ED17CBCB /* Pods-MainProject-MultiPod.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1123,7 +1120,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF738E412233AB796DA4AB5F42553E92 /* Pods-MainProject-MultiPod.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
