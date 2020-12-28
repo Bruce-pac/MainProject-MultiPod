@@ -11,8 +11,8 @@
 #endif
 
 #import "BPDependency.h"
-#import "LoginCoordinator.h"
-#import "LoginModuleManager.h"
+#import "LoginFeatureModule.h"
+#import "LoginPodEvents.h"
 #import "UserInfo.h"
 
 FOUNDATION_EXPORT double LoginPodVersionNumber;

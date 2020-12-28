@@ -15,32 +15,40 @@
 
 @implementation PayCoordinator
 
-- (void)start{
+- (void)startWithPId:(NSInteger)pId{
+    [self startWithOptions:@{@"pId": @(pId)}];
+
+}
+
+- (void)startWithOptions:(NSDictionary *)options {
+    NSNumber *pId = options[@"pId"];
+    if (!pId) {
+        return;
+    }
+    [super startWithOptions:options];
+
     PayViewController *pay = [[UIStoryboard storyboardWithName:@"PayViewController" bundle:nil] instantiateViewControllerWithIdentifier:@"PayViewController"];
     PayViewModel *vm = [[PayViewModel alloc] init];
     pay.payViewModel = vm;
+    pay.pId = pId.integerValue;
     __weak typeof(self) weakSelf = self;
     [vm subscribePayStatus:^(BOOL status) {
         __strong PayCoordinator* self = weakSelf;
-        if ([self.delegate respondsToSelector:@selector(payFlow:didFinishWithStatus:)]) {
-            [self.delegate payFlow:self didFinishWithStatus:status];
-        }
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:status ? @"支付成功": @"支付失败" message:nil preferredStyle:UIAlertControllerStyleAlert];
+        [self.rootVC presentViewController:alert animated:YES completion:nil];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [alert dismissViewControllerAnimated:YES completion:^{
+                if (self.didCompleted) {
+                    self.didCompleted(self);
+                }
+            }];
+        });
     }];
     self.entranceVC = pay;
-    [self.rootVC pushViewController:pay animated:YES];
-}
+    [self pushViewController:pay animated:YES];
 
-- (void)startWithPId:(NSInteger)pId{
-    [self start];
-    PayViewController *pay = (PayViewController *)self.rootVC.topViewController;
-    pay.pId = pId;
 }
 
 - (void)didPopTransitionToViewController:(UIViewController *)toViewController fromViewController:(UIViewController *)fromViewController{
-    if (fromViewController == self.entranceVC) {
-        if (self.didCompleted) {
-            self.didCompleted(self);
-        }
-    }
 }
 @end

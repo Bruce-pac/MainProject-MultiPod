@@ -7,7 +7,7 @@
 //
 
 #import <LBCoordinator/LBNavigationCoordinator.h>
-#import <UserInfo.h>
+#import "AccountInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface AccountCoordinator : LBNavigationCoordinator
 @property (nonatomic, weak) id<AccountCoordinatorDelegate> delegate;
 
-- (void)updateUserInfo:(UserInfo *)info;
+- (void)updateUserInfo:(AccountInfo *)info;
 @end
 
 NS_ASSUME_NONNULL_END

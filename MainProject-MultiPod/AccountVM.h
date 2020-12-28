@@ -10,12 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class UserInfo;
+@class AccountInfo;
 
 typedef void(^UserNameListenser)(NSAttributedString *_Nullable userName);
 
 @interface AccountVM : NSObject
-- (void)updateUserInfo:(UserInfo *)info;
+- (void)updateUserInfo:(AccountInfo *)info;
 - (void)subscribeUserName:(UserNameListenser)listener;
 @end
 

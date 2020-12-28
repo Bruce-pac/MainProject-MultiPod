@@ -7,205 +7,239 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04650634C19F056206E2877D2544E7AD /* LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4961FA490D5C2F594B236C03187B3A50 /* LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		056D24F48F93E7DF7DF2BAE79E2E96E8 /* LoginPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51E88344E929686BDC3572C9F13B09 /* LoginPod-dummy.m */; };
-		083F506460E9F56F62796D7065EA5665 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531A6CFC1F974EFC49C447ED29D2F5 /* ListViewController.swift */; };
-		0E4E8AB9BE7585FC20080FD1952BF0ED /* ListModuleCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7304B2BBF2D061B77CC9363C96BC0 /* ListModuleCoordinatorDelegate.swift */; };
-		0EF045FF6D65C0ADD10945F16234D624 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F4E8867517FDD374CCF567DF96FB6 /* ListItem.swift */; };
-		14F614AC3EC0DEFC55AFEF3424E59A6B /* LBCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291F5F46BFAD1C0D91D7A8D720510DF /* LBCoordinator-dummy.m */; };
-		1D291232F38F7B67C21E996B6CCD60DA /* UIResponder+LBCoordinating.m in Sources */ = {isa = PBXBuildFile; fileRef = 8012D87188F837D55FC29E48CC36A856 /* UIResponder+LBCoordinating.m */; };
-		1DA80492688756E4DECA679528C3AEA6 /* BPDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DEE9A156C070D7DB02E8152937E6C1 /* BPDependency.m */; };
-		25B31113EA46EF654E3E899899FC95A8 /* LBGenericCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = C34E67E01364F07BFBD4C7F77D404D6A /* LBGenericCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B8A26BAFB32F67C81946C036F485B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5597A2BFD62A72958C4D4B150554739 /* Foundation.framework */; };
-		41F9FE96F9156661D825DC79C5572ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5597A2BFD62A72958C4D4B150554739 /* Foundation.framework */; };
-		4652D989F7BDB1F59D7D5D0EDB597A89 /* Pods-MainProject-MultiPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEFD285AAC7D40C9CA0C53E68A5A8AC /* Pods-MainProject-MultiPod-dummy.m */; };
-		47C5FACA69B0389655B04C9EC38124D3 /* LBGenericCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 415AFD3195A77CFEB67ABFD9EEB007CC /* LBGenericCoordinator.m */; };
-		58DAD954BD1B1A48B13A24DDDF27EA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5597A2BFD62A72958C4D4B150554739 /* Foundation.framework */; };
-		5903321860497623317BB9909462AAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5597A2BFD62A72958C4D4B150554739 /* Foundation.framework */; };
-		5C281C44AD98AD22C8AF9452E4081276 /* LBBaseCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = EC06ADCE15E2DABCF230EF7C74DFA5F5 /* LBBaseCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63260BA0564F7E8AF9BFF134F954FF79 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43119E40E5039B6C5A067F06AF289930 /* ListCoordinator.swift */; };
-		6366FD8A7AD94800C6AB2399363FAC80 /* LBCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CECC1928BE972540A4CD530B561EF65 /* LBCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A007B9C42E66B59FB0F192A996CA2B8 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A04D722034BA19D7BC930414295CCF30 /* LoginViewModel.m */; };
-		6A6FDB744C6AFED0F9BDC091A57DADF1 /* UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE0287EEE1C625039675875909DE5CD /* UserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72E5E96E34211B2601B171D9649DDD2F /* LoginPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8D829E1DF2B9E975E6F4AF1A012E548 /* LoginPod.bundle */; };
-		7655E5E040708ECD240F4DF2F61B9C67 /* BPDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = F49DC76619A3AB18A44C780E3981C582 /* BPDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A84EBD7BB9C1A8882CC8A888C181D7D /* LoginModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0D0B8602D9DDF141CA5F22A5F82B2 /* LoginModuleManager.m */; };
-		7CD755FF75974CF22DAE91D48C572DD6 /* LoginCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = F252FBC6D1D1E18A5381382E5118B10F /* LoginCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D350CFD7C81B3401026210A2662F9A7 /* ModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B67788927374AD7E0B13A2B17694558 /* ModuleManager.swift */; };
-		7F63A34C42B60E6BDD7DBD121BE3CD06 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E30101E0F4730BB42760100A5F2B91 /* LoginViewController.storyboard */; };
-		7F92EED3DBD7DE2A67EE5A5B22DDC5FF /* LoginViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6051AB9CC6760DDDF614B72B709E16AC /* LoginViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80BD64B7B55468BEA6CBA8ABA5D57245 /* LBBaseCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B539DA126038A0891EAB0E6747B405B /* LBBaseCoordinator.m */; };
-		8C0308FA90C985D085F10AD0C846FF85 /* LBNavigationCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA8863D5858C455304513389CD3BE3 /* LBNavigationCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		901F865D88F859A930D3EE331100A8FF /* LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = C15BC39EB6B5F365C0D1DD42AF206038 /* LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C053B953DF18A9C4787F146F35381C /* UIViewController+LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4043A69ED34C6949751C0F20CFE0DB6 /* UIViewController+LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EF0D4C7C8B4683FD8141E36EBE571E4 /* LoginCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1905B65F3C8C4AA0D9C78474BADBD0 /* LoginCoordinator.m */; };
-		A160EAF79649915EBF21339120B7A905 /* LBCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */; };
-		A9583364A45D926DE9737482FAA313E9 /* LoginPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA3D734FB345A2BF728975810074AFE /* LoginPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC833DDE5414ABE68941AA04CB544522 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8612D5F15BF7D8FA74036B29AB4FAD /* LoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD6B497F845E87587C388569DE25F154 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6F2E8761B15CBFE42FC5D34A0B64 /* UserInfo.m */; };
-		C4AF00CF7A6EB785F43A6C912511F02C /* LBCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */; };
-		C4F78E0834795B0AD230FE3E7860AF7D /* ListPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE13257185938D652A54E171823A301 /* ListPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7D03528411CADB5AB4FA8A5A3184349 /* LoginModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDA6348358DA6EDEE52A8766B68AD58 /* LoginModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE17745D38F4429F2F4BF6BD33FD3032 /* UIViewController+LBCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C984A33347FCFC0B73932B8C9400552F /* UIViewController+LBCoordinator.m */; };
-		D38CADC6E2414BE189C0D478795B230B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA0954E006A13AFB069517E05112DD /* LoginViewController.m */; };
-		D75103BA36C5ED69D883EA64830FD124 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF1E32EA4FB77445CDD6A2A6C238CC /* DetailViewController.swift */; };
-		DBDB270C2CE88C8DBD431EF43648265E /* ListPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FEECD679455156E2D5AE5292C5FD2A /* ListPod-dummy.m */; };
-		F61438D1A657416204C6B0590BD9A992 /* UIResponder+LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = A560A9CBB5EB5BD959CFCC288577BBAD /* UIResponder+LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE1A283A900B39FF603CBFFA972324C7 /* Pods-MainProject-MultiPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9716E3D65647E6FFBFA2EA6A8C4DC4 /* Pods-MainProject-MultiPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEA083E49EBA6DA398157D995D5274A0 /* LBNavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB77444487EC1F87744F5D10BAFAE /* LBNavigationCoordinator.m */; };
+		00A618AF156829CF5033709E701A20ED /* Pods-MainProject-MultiPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEFD285AAC7D40C9CA0C53E68A5A8AC /* Pods-MainProject-MultiPod-dummy.m */; };
+		036F0B290B09AAA7D2F2917C01C5E4DF /* LoginFeatureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A64BD44CC17F6BD8E703BF4CA4DB0 /* LoginFeatureModule.m */; };
+		04F80B44A737FD1A32E1D8081EF67A23 /* LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = EB82A36D64ACBD111BF48B4920956BED /* LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0604719BD76C13E44B3BFB4CDC1136F2 /* UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A028ACE45BA8E337697097BE8F3BAB3B /* UserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB0C2F9F1C028D2581BE2DC08029B57 /* UIResponder+LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D35B55790FDF6D9FAF0D523A3691802 /* UIResponder+LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13376A1A71F990D9027F4F5D593D15AB /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E826B9A63B65080EDF1D37D81B9B57A /* LoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		140B8608C6FA01E0CC8FE5208006418D /* LoginViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DEC7FEDB2CF28CDF15D9BA96CE2EE9 /* LoginViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1996DFC04CC04D9B7DD46CFE8FD05F36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0A817F183C0D9D10A9224B43CE960 /* Foundation.framework */; };
+		1E7970FB1FEBE7B2355457A18C248A71 /* LBCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */; };
+		1F726FAF486AD3A4A9B94FBCA79B41D8 /* UIResponder+LBCoordinating.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA455DFE6A80907AE1863814CF68EE5 /* UIResponder+LBCoordinating.m */; };
+		20ED3A7E55A8E3DB812DC3AB89C9A0BC /* LoginPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2559BF052030D6A099F02C16E3AF934 /* LoginPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CDEFCA4A9548FE41B944670C6FC3AFA /* LBFeatureModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B9097CA2D37CE827EAF83D03074F05 /* LBFeatureModuleManager.m */; };
+		2F503C6862AC5C3587DF0212EEF886A8 /* LBGenericCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = A4743583BB497B3C84FDF2B57A656D0F /* LBGenericCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		353C919A635A7317C267EDC3B67BE96A /* LBBaseCoordinator+FeatureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B27AAFD656DE4DB886CB281EE1AE8C /* LBBaseCoordinator+FeatureModule.m */; };
+		3A7DE948B6DCF51C8196EE563715CB4A /* LoginDependencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19C6B62129C924C76022F030DD237F /* LoginDependencyManager.m */; };
+		3D86A4E6546EC0D96ECD7CCF49AD54C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0A817F183C0D9D10A9224B43CE960 /* Foundation.framework */; };
+		3DD7094BDA176746013CB09373F7B3E0 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F24332F306C283A277B9F0BD9DE98E /* LoginViewModel.m */; };
+		4787416E80C7CBC8A5C6C9C77ABDC88F /* LBBaseCoordinator+FeatureModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8302E260D0FE37633FBD455AE42BE770 /* LBBaseCoordinator+FeatureModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487247F9ECE0A072B747F6E3F2789698 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16BED0F23E2021AEF432B9E1C2AC21F /* ListItem.swift */; };
+		53F46646FE3E4BBBDE728F05CE017003 /* LoginFeatureModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B36ABF4B570C0543EFDCB410B793421 /* LoginFeatureModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BBC33FA28467326467E479E83B3018 /* LoginDependencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB22274E70AF5184BDC3F01EAF47CD95 /* LoginDependencyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55EB39742758A28D3F4E4B053ACDA696 /* Pods-MainProject-MultiPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9716E3D65647E6FFBFA2EA6A8C4DC4 /* Pods-MainProject-MultiPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC923DD99D446D9118F67990A0F96BC /* LoginPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBF9B596B94B2B5B9CD588DE1BE3601 /* LoginPod-dummy.m */; };
+		63D295FBEA6B728FB613F25DE1038234 /* LBFeatureModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 461484353D82917B3A3B727C43F33AD3 /* LBFeatureModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64E3157F7359815C3F30A3F3223CEA36 /* LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDF05C400EB4480C71C073FC4D10314 /* LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F3D85E4CB780C01A160281DE85063C /* ListPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B96A4EA98FAEA1FF5F2798E3A4F3392 /* ListPod-dummy.m */; };
+		6559833F230F84FB1F77C991F10DA89E /* LBCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */; };
+		67762AB824D976ACFD1A7BBFD11288EE /* ListFeatureModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD5D2D8FC4D5923BD8208F4DDA60663 /* ListFeatureModule.swift */; };
+		68F1E1F4D37959B20234F2AC0D5B58DA /* UIViewController+LBExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A7CDBACB51F225EC3A3407E394604 /* UIViewController+LBExt.m */; };
+		7257FF607156909090D024D85E15A768 /* LBGenericCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A97EFACE63943076BBBE44AC587976 /* LBGenericCoordinator.m */; };
+		7305B9F8182B83413A8FD2D5BF31BD22 /* LBCoordinatorEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DE327E2E80372724C63077F6F0D4D578 /* LBCoordinatorEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736BD6754393BEE9C0C186BBF4410998 /* LBBaseCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1FE12DF4EECEAFFC00F7FBA032AF0D /* LBBaseCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		742FC0AC8E3BC664195307B3BB04B9EC /* LBCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B5BB1603F0CBCEB127AEFC781FCE /* LBCoordinator-dummy.m */; };
+		7E60B90DE7C41DA37A1FEB360F741FD4 /* UIViewController+LBExt.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CAAD31AC121D215A6BC0D6A34F73DA /* UIViewController+LBExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898A48FE3E735CEE0EA1DE2CF8AA87D4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A598BA69420151347620B97344CCE73 /* ListViewController.swift */; };
+		8AAEF957C8F7FB5A18F4A18DA831CE90 /* BPDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F65CDD2B92BF8573852B16681059ED /* BPDependency.m */; };
+		8D5D60396A06EDEDC10FDF2D862395E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0A817F183C0D9D10A9224B43CE960 /* Foundation.framework */; };
+		8E05D44DC8753863A284A44F7974A2C4 /* UIViewController+LBCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D12AF876D7A42743706A32ACEDE72DD /* UIViewController+LBCoordinator.m */; };
+		8F763545A9C38F6408BF3F4813B6C4E7 /* LBNavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AB014C72237BC9335C7526E9F719A2 /* LBNavigationCoordinator.m */; };
+		9B71BC9EED87384B61D708E5263825D2 /* BPDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF4B9494234FCB458181A26473EB434 /* BPDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9657CE5306DE6364C2B0D058A58863D /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B049D8CC84B18C1226B16AB3BA3D9DB4 /* UserInfo.m */; };
+		B9D34059A6CE9BB8B8BBE90F5AE7B9AB /* LoginPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8D829E1DF2B9E975E6F4AF1A012E548 /* LoginPod.bundle */; };
+		BFB552F758DBBA5331C199BD704CE0AB /* ListPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEF661FE4F02FBDAA73F6DF5AB6DCDA /* ListPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D62CAB8916AF23434193CFDD7652DC /* LoginCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC146AE0C826A859D0C028FBD84186F /* LoginCoordinator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C66B8A8628A6ED3F5EF5E1ACEFFBA0BB /* LBFeatureModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 66683F10CCA7DC9B856466A373A01781 /* LBFeatureModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F8BDA1C2F400E112B16EFBA43A5272 /* LoginCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5182A41C7E1400531E701679B438A /* LoginCoordinator.m */; };
+		CD92E97958C0FB4CA5D82C7170825541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0A817F183C0D9D10A9224B43CE960 /* Foundation.framework */; };
+		CE2431916414BC705048306239452A04 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D415FAAE2C3F719BA59CB2DEF4F1F2E /* LoginViewController.m */; };
+		E28DCE2AAE779A1AF634919A36737D81 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012EF22FB7457AAF373266E6679F9DC /* ListCoordinator.swift */; };
+		E44BE98AEBDAB18DB001562E50F6F910 /* LoginPodEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCAF8EA0A3CC2F072D24821E278E6A6 /* LoginPodEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4ACFDA4C37BBE7976A288AA9EC9A8D5 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BE1B0F2247C3D12B18DA1F281877B /* LoginViewController.storyboard */; };
+		E992C6E116487062DA341E22FAE352E8 /* LBBaseCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 102E80EE6765E9647784C6C5B614D5D8 /* LBBaseCoordinator.m */; };
+		F2F80643CBEEA5A4A2FC3EBA7C7B3ACD /* LoginPodEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A4E9B3E18EC59A6AC6AAE2AA154A3 /* LoginPodEvents.m */; };
+		F749EE0ED86D78608B2CC7C6E9D26456 /* LBNavigationCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8794E5499CAFA09975FF07F96EDDD782 /* LBNavigationCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB31B19C77C169B1BEF851E13F3E9ABD /* LBCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2519594A124D489DFE5BF3F858AB10 /* LBCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF27508255968608BFD9042E2DFAC5F4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA81426563C53BCA75FADA8988190D1E /* DetailViewController.swift */; };
+		FF6D257E05A5314E20ACB80DB4A865AA /* UIViewController+LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6C812BFD9A2BB4F61399407A55E7CD /* UIViewController+LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06F61B0B2C8F9622B11EE41987F1CFBD /* PBXContainerItemProxy */ = {
+		2A3344D631D49D82CA5BD77689822B73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4D23CD2508FF79511AAB3F872CAF165C;
 			remoteInfo = ListPod;
 		};
-		524CD367165CF448F399F726C081ABF3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6431C8C70EBCB92354839F3D707550B8;
-			remoteInfo = LBCoordinator;
-		};
-		8C1B493825AD6359861F415BD9340521 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6431C8C70EBCB92354839F3D707550B8;
-			remoteInfo = LBCoordinator;
-		};
-		96DBBA71B6EA41EA3530A0B817841EE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6431C8C70EBCB92354839F3D707550B8;
-			remoteInfo = LBCoordinator;
-		};
-		9EE88DBDF861CD286B99E5368AE5E0F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEC6D9AD29B13299A5B32D2F0D686D4F;
-			remoteInfo = LoginPod;
-		};
-		EF6A50ADD9875D2597891ABF9B25D40B /* PBXContainerItemProxy */ = {
+		73749D6E5A989F3586B41F7E706AC122 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5E9CD55E1EA843E01746FABB23D4E9F9;
 			remoteInfo = "LoginPod-LoginPod";
 		};
+		B7CC82EA983C959C35886B826F19B495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6431C8C70EBCB92354839F3D707550B8;
+			remoteInfo = LBCoordinator;
+		};
+		B838A22085C39788CA4706ECDC908CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC6D9AD29B13299A5B32D2F0D686D4F;
+			remoteInfo = LoginPod;
+		};
+		F177DCC4041108854F501A094808AF39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6431C8C70EBCB92354839F3D707550B8;
+			remoteInfo = LBCoordinator;
+		};
+		F3E149EA2624217E6B527021752723AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6431C8C70EBCB92354839F3D707550B8;
+			remoteInfo = LBCoordinator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F32A1802E1B1D312B3F95190656E40 /* LBCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBCoordinator-Info.plist"; sourceTree = "<group>"; };
+		07DEC7FEDB2CF28CDF15D9BA96CE2EE9 /* LoginViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		07EBAC92472B024362EEFD2FC49DF855 /* LBCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LBCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A2519594A124D489DFE5BF3F858AB10 /* LBCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-umbrella.h"; sourceTree = "<group>"; };
+		0C17B0C3B47B6A4E8AA50C368B90D736 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D35B55790FDF6D9FAF0D523A3691802 /* UIResponder+LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+LBCoordinating.h"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.h"; sourceTree = "<group>"; };
+		102E80EE6765E9647784C6C5B614D5D8 /* LBBaseCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBBaseCoordinator.m; path = LBCoordinator/Classes/LBBaseCoordinator.m; sourceTree = "<group>"; };
+		136EEC041BA06E66CE12CE2B4049A77D /* LBCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBCoordinator.debug.xcconfig; sourceTree = "<group>"; };
+		13B27AAFD656DE4DB886CB281EE1AE8C /* LBBaseCoordinator+FeatureModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LBBaseCoordinator+FeatureModule.m"; path = "LBCoordinator/Classes/LBBaseCoordinator+FeatureModule.m"; sourceTree = "<group>"; };
+		1994D604F956EF27C454F560D0276CDC /* ListPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPod-prefix.pch"; sourceTree = "<group>"; };
+		19E2B6FA29BC36902CD9EC5D186FBA67 /* ListPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ListPod-Info.plist"; sourceTree = "<group>"; };
+		1BF5182A41C7E1400531E701679B438A /* LoginCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginCoordinator.m; sourceTree = "<group>"; };
 		1D50D0EEDA8D5A3FE5DF368BF34DD1C8 /* Pods-MainProject-MultiPod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-MultiPod-frameworks.sh"; sourceTree = "<group>"; };
-		1FB643FD1B62DF6048DB1BBE01A6A5C5 /* ResourceBundle-LoginPod-LoginPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LoginPod-LoginPod-Info.plist"; sourceTree = "<group>"; };
-		1FE0287EEE1C625039675875909DE5CD /* UserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserInfo.h; path = LoginPod/Classes/Public/UserInfo.h; sourceTree = "<group>"; };
-		2C6A2D6906E209E5A67690F5313440A5 /* LoginPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E826B9A63B65080EDF1D37D81B9B57A /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		24B604A958D4B8AEDCFAB7A7CC069313 /* LoginPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginPod.release.xcconfig; sourceTree = "<group>"; };
+		277D82A6C6DF8388D9DF522C49270AA6 /* ListPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ListPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27EDFA3907FDC527CE072A0C6E7E6120 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A598BA69420151347620B97344CCE73 /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ListPod/Classes/ListViewController.swift; sourceTree = "<group>"; };
+		2AC146AE0C826A859D0C028FBD84186F /* LoginCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginCoordinator.h; sourceTree = "<group>"; };
+		2B36ABF4B570C0543EFDCB410B793421 /* LoginFeatureModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginFeatureModule.h; sourceTree = "<group>"; };
+		2C6A2D6906E209E5A67690F5313440A5 /* LoginPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginPod.framework; path = LoginPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D415FAAE2C3F719BA59CB2DEF4F1F2E /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2FA1B521A457D4E67E41F869C5AA988A /* Pods-MainProject-MultiPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-MultiPod-acknowledgements.plist"; sourceTree = "<group>"; };
-		34E4572E429D408C1167FCAF79F6CD8E /* LoginPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginPod-prefix.pch"; sourceTree = "<group>"; };
-		356F4E8867517FDD374CCF567DF96FB6 /* ListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = ListPod/Classes/ListItem.swift; sourceTree = "<group>"; };
+		3A7BE1B0F2247C3D12B18DA1F281877B /* LoginViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LoginViewController.storyboard; path = LoginPod/Classes/Private/LoginViewController.storyboard; sourceTree = "<group>"; };
 		3D852B078884D6369DB59F412DB04AEF /* Pods-MainProject-MultiPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-MultiPod-Info.plist"; sourceTree = "<group>"; };
-		415AFD3195A77CFEB67ABFD9EEB007CC /* LBGenericCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBGenericCoordinator.m; path = LBCoordinator/Classes/LBGenericCoordinator.m; sourceTree = "<group>"; };
-		41FEECD679455156E2D5AE5292C5FD2A /* ListPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ListPod-dummy.m"; sourceTree = "<group>"; };
-		43119E40E5039B6C5A067F06AF289930 /* ListCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCoordinator.swift; path = ListPod/Classes/ListCoordinator.swift; sourceTree = "<group>"; };
-		4845CB3533764DC3F423E764CF8C3555 /* Pods_MainProject_MultiPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainProject_MultiPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		488C2EF3D22F8C1487310B971C9F3D9E /* ListPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPod-prefix.pch"; sourceTree = "<group>"; };
-		4961FA490D5C2F594B236C03187B3A50 /* LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinator.h; path = LBCoordinator/Classes/LBCoordinator.h; sourceTree = "<group>"; };
-		4DDA6348358DA6EDEE52A8766B68AD58 /* LoginModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginModuleManager.h; path = LoginPod/Classes/Public/LoginModuleManager.h; sourceTree = "<group>"; };
-		4E44315E261E1CC9BB4A3789910A9B31 /* ListPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA455DFE6A80907AE1863814CF68EE5 /* UIResponder+LBCoordinating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+LBCoordinating.m"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.m"; sourceTree = "<group>"; };
+		452E87383B13A8942478875676D8AA77 /* LBCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBCoordinator.modulemap; sourceTree = "<group>"; };
+		461484353D82917B3A3B727C43F33AD3 /* LBFeatureModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBFeatureModuleManager.h; path = LBCoordinator/Classes/LBFeatureModuleManager.h; sourceTree = "<group>"; };
+		4845CB3533764DC3F423E764CF8C3555 /* Pods_MainProject_MultiPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MainProject_MultiPod.framework; path = "Pods-MainProject-MultiPod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB0A817F183C0D9D10A9224B43CE960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E44315E261E1CC9BB4A3789910A9B31 /* ListPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListPod.framework; path = ListPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B539DA126038A0891EAB0E6747B405B /* LBBaseCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBBaseCoordinator.m; path = LBCoordinator/Classes/LBBaseCoordinator.m; sourceTree = "<group>"; };
+		4FD5D2D8FC4D5923BD8208F4DDA60663 /* ListFeatureModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListFeatureModule.swift; path = ListPod/Classes/ListFeatureModule.swift; sourceTree = "<group>"; };
+		505DF302F7138D50E3258EB2CA363C36 /* LoginPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B26B5BB1603F0CBCEB127AEFC781FCE /* LBCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBCoordinator-dummy.m"; sourceTree = "<group>"; };
 		5E44D189103D38B52EA89E969655A853 /* Pods-MainProject-MultiPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainProject-MultiPod.modulemap"; sourceTree = "<group>"; };
-		6051AB9CC6760DDDF614B72B709E16AC /* LoginViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewModel.h; path = LoginPod/Classes/Private/LoginViewModel.h; sourceTree = "<group>"; };
-		60CA0954E006A13AFB069517E05112DD /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = LoginPod/Classes/Private/LoginViewController.m; sourceTree = "<group>"; };
-		6291F5F46BFAD1C0D91D7A8D720510DF /* LBCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBCoordinator-dummy.m"; sourceTree = "<group>"; };
 		6399D089989202B03E4066F7ED17CBCB /* Pods-MainProject-MultiPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject-MultiPod.debug.xcconfig"; sourceTree = "<group>"; };
-		64B74555D5C4C0E25EDC5B2BD3D2C98E /* LBCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-prefix.pch"; sourceTree = "<group>"; };
-		65CF1E32EA4FB77445CDD6A2A6C238CC /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ListPod/Classes/DetailViewController.swift; sourceTree = "<group>"; };
-		6CECC1928BE972540A4CD530B561EF65 /* LBCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-umbrella.h"; sourceTree = "<group>"; };
-		7B67788927374AD7E0B13A2B17694558 /* ModuleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleManager.swift; path = ListPod/Classes/ModuleManager.swift; sourceTree = "<group>"; };
-		7EFA8863D5858C455304513389CD3BE3 /* LBNavigationCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBNavigationCoordinator.h; path = LBCoordinator/Classes/LBNavigationCoordinator.h; sourceTree = "<group>"; };
-		8012D87188F837D55FC29E48CC36A856 /* UIResponder+LBCoordinating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+LBCoordinating.m"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.m"; sourceTree = "<group>"; };
-		81ABE4CB66A0B630619590F70BDF8BBE /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C7304B2BBF2D061B77CC9363C96BC0 /* ListModuleCoordinatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListModuleCoordinatorDelegate.swift; path = ListPod/Classes/ListModuleCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		66683F10CCA7DC9B856466A373A01781 /* LBFeatureModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBFeatureModule.h; path = LBCoordinator/Classes/LBFeatureModule.h; sourceTree = "<group>"; };
+		6B96A4EA98FAEA1FF5F2798E3A4F3392 /* ListPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ListPod-dummy.m"; sourceTree = "<group>"; };
+		6D12AF876D7A42743706A32ACEDE72DD /* UIViewController+LBCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LBCoordinator.m"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.m"; sourceTree = "<group>"; };
+		6E6C812BFD9A2BB4F61399407A55E7CD /* UIViewController+LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LBCoordinator.h"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.h"; sourceTree = "<group>"; };
+		736584C7E4C1D4CEE84D445DDEC37717 /* ListPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListPod.debug.xcconfig; sourceTree = "<group>"; };
+		755CE702DAA613FD07FF6E1F8416E99A /* LoginPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginPod.modulemap; sourceTree = "<group>"; };
+		7BF4B9494234FCB458181A26473EB434 /* BPDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BPDependency.h; sourceTree = "<group>"; };
+		7C394C2B800EC70320D8D67989F27D6D /* LoginPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginPod.debug.xcconfig; sourceTree = "<group>"; };
+		7CBF9B596B94B2B5B9CD588DE1BE3601 /* LoginPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginPod-dummy.m"; sourceTree = "<group>"; };
+		7D9A64BD44CC17F6BD8E703BF4CA4DB0 /* LoginFeatureModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginFeatureModule.m; sourceTree = "<group>"; };
+		81ABE4CB66A0B630619590F70BDF8BBE /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBCoordinator.framework; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8302E260D0FE37633FBD455AE42BE770 /* LBBaseCoordinator+FeatureModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LBBaseCoordinator+FeatureModule.h"; path = "LBCoordinator/Classes/LBBaseCoordinator+FeatureModule.h"; sourceTree = "<group>"; };
 		864E9D5DAD16AE521669F9844E295AC4 /* Pods-MainProject-MultiPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-MultiPod-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8CE13257185938D652A54E171823A301 /* ListPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPod-umbrella.h"; sourceTree = "<group>"; };
-		8D152E4209F513F409B79A0D5FFD9303 /* LBCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBCoordinator-Info.plist"; sourceTree = "<group>"; };
-		95163EC0C27EC64B74AB78F24728FD74 /* LoginPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginPod-Info.plist"; sourceTree = "<group>"; };
-		9CC0D0B8602D9DDF141CA5F22A5F82B2 /* LoginModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginModuleManager.m; path = LoginPod/Classes/Public/LoginModuleManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F51E88344E929686BDC3572C9F13B09 /* LoginPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginPod-dummy.m"; sourceTree = "<group>"; };
-		A04D722034BA19D7BC930414295CCF30 /* LoginViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewModel.m; path = LoginPod/Classes/Private/LoginViewModel.m; sourceTree = "<group>"; };
-		A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginPod.xcconfig; sourceTree = "<group>"; };
-		A560A9CBB5EB5BD959CFCC288577BBAD /* UIResponder+LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+LBCoordinating.h"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.h"; sourceTree = "<group>"; };
-		A8D829E1DF2B9E975E6F4AF1A012E548 /* LoginPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC8612D5F15BF7D8FA74036B29AB4FAD /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = LoginPod/Classes/Private/LoginViewController.h; sourceTree = "<group>"; };
+		8794E5499CAFA09975FF07F96EDDD782 /* LBNavigationCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBNavigationCoordinator.h; path = LBCoordinator/Classes/LBNavigationCoordinator.h; sourceTree = "<group>"; };
+		8CCAF8EA0A3CC2F072D24821E278E6A6 /* LoginPodEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginPodEvents.h; sourceTree = "<group>"; };
+		8DDF05C400EB4480C71C073FC4D10314 /* LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinator.h; path = LBCoordinator/Classes/LBCoordinator.h; sourceTree = "<group>"; };
+		9A19C6B62129C924C76022F030DD237F /* LoginDependencyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginDependencyManager.m; sourceTree = "<group>"; };
+		9A9A4E9B3E18EC59A6AC6AAE2AA154A3 /* LoginPodEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginPodEvents.m; sourceTree = "<group>"; };
+		9AC72DFC80AE824EED0B55B9FF7658DD /* ListPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ListPod.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A028ACE45BA8E337697097BE8F3BAB3B /* UserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		A16BED0F23E2021AEF432B9E1C2AC21F /* ListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = ListPod/Classes/ListItem.swift; sourceTree = "<group>"; };
+		A1E15D6E53D85BA6762ACFDDBA77B762 /* LBCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBCoordinator.release.xcconfig; sourceTree = "<group>"; };
+		A4743583BB497B3C84FDF2B57A656D0F /* LBGenericCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBGenericCoordinator.h; path = LBCoordinator/Classes/LBGenericCoordinator.h; sourceTree = "<group>"; };
+		A8D829E1DF2B9E975E6F4AF1A012E548 /* LoginPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoginPod.bundle; path = "LoginPod-LoginPod.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF738E412233AB796DA4AB5F42553E92 /* Pods-MainProject-MultiPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject-MultiPod.release.xcconfig"; sourceTree = "<group>"; };
-		BD531A6CFC1F974EFC49C447ED29D2F5 /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ListPod/Classes/ListViewController.swift; sourceTree = "<group>"; };
-		BD70157C2F71553E87A6760BAE8474C3 /* LBCoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBCoordinator.xcconfig; sourceTree = "<group>"; };
-		BD7BB77444487EC1F87744F5D10BAFAE /* LBNavigationCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBNavigationCoordinator.m; path = LBCoordinator/Classes/LBNavigationCoordinator.m; sourceTree = "<group>"; };
-		C15BC39EB6B5F365C0D1DD42AF206038 /* LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinating.h; path = LBCoordinator/Classes/LBCoordinating.h; sourceTree = "<group>"; };
-		C34E67E01364F07BFBD4C7F77D404D6A /* LBGenericCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBGenericCoordinator.h; path = LBCoordinator/Classes/LBGenericCoordinator.h; sourceTree = "<group>"; };
-		C876ADA421FAA000A514E7107945F0DB /* LBCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBCoordinator.modulemap; sourceTree = "<group>"; };
-		C984A33347FCFC0B73932B8C9400552F /* UIViewController+LBCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LBCoordinator.m"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.m"; sourceTree = "<group>"; };
-		CCA3D734FB345A2BF728975810074AFE /* LoginPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginPod-umbrella.h"; sourceTree = "<group>"; };
-		CDDB6F2E8761B15CBFE42FC5D34A0B64 /* UserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UserInfo.m; path = LoginPod/Classes/Public/UserInfo.m; sourceTree = "<group>"; };
+		B049D8CC84B18C1226B16AB3BA3D9DB4 /* UserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		B3F65CDD2B92BF8573852B16681059ED /* BPDependency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BPDependency.m; sourceTree = "<group>"; };
+		B7419EA01BF6D487F7E5C4BA7844C8F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BBEF661FE4F02FBDAA73F6DF5AB6DCDA /* ListPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPod-umbrella.h"; sourceTree = "<group>"; };
+		BC1FE12DF4EECEAFFC00F7FBA032AF0D /* LBBaseCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBBaseCoordinator.h; path = LBCoordinator/Classes/LBBaseCoordinator.h; sourceTree = "<group>"; };
+		C4AB014C72237BC9335C7526E9F719A2 /* LBNavigationCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBNavigationCoordinator.m; path = LBCoordinator/Classes/LBNavigationCoordinator.m; sourceTree = "<group>"; };
+		C63A7CDBACB51F225EC3A3407E394604 /* UIViewController+LBExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LBExt.m"; path = "LBCoordinator/Classes/UIViewController+LBExt.m"; sourceTree = "<group>"; };
+		CB22274E70AF5184BDC3F01EAF47CD95 /* LoginDependencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginDependencyManager.h; sourceTree = "<group>"; };
+		CD7E6DADEAFE172AC86C90F30DBB6B51 /* LoginPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginPod-prefix.pch"; sourceTree = "<group>"; };
 		CE9716E3D65647E6FFBFA2EA6A8C4DC4 /* Pods-MainProject-MultiPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainProject-MultiPod-umbrella.h"; sourceTree = "<group>"; };
-		CF2BCEDF1809A219F5AC8398200F1829 /* ListPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ListPod.modulemap; sourceTree = "<group>"; };
-		D4043A69ED34C6949751C0F20CFE0DB6 /* UIViewController+LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LBCoordinator.h"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.h"; sourceTree = "<group>"; };
-		D5597A2BFD62A72958C4D4B150554739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DBDC5EAC6C0789B32DEFA4F22070A495 /* ListPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ListPod-Info.plist"; sourceTree = "<group>"; };
-		DF9C2E41C0F6B16DE227BEE3F4345712 /* ListPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListPod.xcconfig; sourceTree = "<group>"; };
-		E4F53F915DDC35051499EE1D649DC0A5 /* LoginPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginPod.modulemap; sourceTree = "<group>"; };
-		EC06ADCE15E2DABCF230EF7C74DFA5F5 /* LBBaseCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBBaseCoordinator.h; path = LBCoordinator/Classes/LBBaseCoordinator.h; sourceTree = "<group>"; };
-		ED1905B65F3C8C4AA0D9C78474BADBD0 /* LoginCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginCoordinator.m; path = LoginPod/Classes/Public/LoginCoordinator.m; sourceTree = "<group>"; };
+		D012EF22FB7457AAF373266E6679F9DC /* ListCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCoordinator.swift; path = ListPod/Classes/ListCoordinator.swift; sourceTree = "<group>"; };
+		D1826400C533267FD3938CF7CAF626B6 /* ListPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListPod.release.xcconfig; sourceTree = "<group>"; };
+		D7CAAD31AC121D215A6BC0D6A34F73DA /* UIViewController+LBExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LBExt.h"; path = "LBCoordinator/Classes/UIViewController+LBExt.h"; sourceTree = "<group>"; };
+		D8A97EFACE63943076BBBE44AC587976 /* LBGenericCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBGenericCoordinator.m; path = LBCoordinator/Classes/LBGenericCoordinator.m; sourceTree = "<group>"; };
+		D8F842B14119F162DEB7ED0A42C2F6B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE327E2E80372724C63077F6F0D4D578 /* LBCoordinatorEventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinatorEventHandler.h; path = LBCoordinator/Classes/LBCoordinatorEventHandler.h; sourceTree = "<group>"; };
+		E1290E234DC59977B69FFF1652936703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E2559BF052030D6A099F02C16E3AF934 /* LoginPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginPod-umbrella.h"; sourceTree = "<group>"; };
+		E3F24332F306C283A277B9F0BD9DE98E /* LoginViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		E59512CC2F9E2E1E1B0FC2CE5DECD613 /* LoginPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginPod-Info.plist"; sourceTree = "<group>"; };
+		E6B9097CA2D37CE827EAF83D03074F05 /* LBFeatureModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBFeatureModuleManager.m; path = LBCoordinator/Classes/LBFeatureModuleManager.m; sourceTree = "<group>"; };
+		EA81426563C53BCA75FADA8988190D1E /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ListPod/Classes/DetailViewController.swift; sourceTree = "<group>"; };
+		EB82A36D64ACBD111BF48B4920956BED /* LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinating.h; path = LBCoordinator/Classes/LBCoordinating.h; sourceTree = "<group>"; };
 		EFEFD285AAC7D40C9CA0C53E68A5A8AC /* Pods-MainProject-MultiPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProject-MultiPod-dummy.m"; sourceTree = "<group>"; };
-		F0DEE9A156C070D7DB02E8152937E6C1 /* BPDependency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BPDependency.m; path = LoginPod/Classes/Public/BPDependency.m; sourceTree = "<group>"; };
-		F252FBC6D1D1E18A5381382E5118B10F /* LoginCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginCoordinator.h; path = LoginPod/Classes/Public/LoginCoordinator.h; sourceTree = "<group>"; };
-		F49DC76619A3AB18A44C780E3981C582 /* BPDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BPDependency.h; path = LoginPod/Classes/Public/BPDependency.h; sourceTree = "<group>"; };
-		F4E30101E0F4730BB42760100A5F2B91 /* LoginViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LoginViewController.storyboard; path = LoginPod/Classes/Private/LoginViewController.storyboard; sourceTree = "<group>"; };
+		F3B1A7173E1952CC1D736AD809E9A022 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB8A750068CB00A3484D656FCD1FA301 /* LBCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		FBA7D546C0654F501A9C0A4404E91F50 /* ResourceBundle-LoginPod-LoginPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LoginPod-LoginPod-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08AE8E8C800B0BF5559D1B282F821944 /* Frameworks */ = {
+		360DE5C753E39AEB0AFAB0F627351C10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8A26BAFB32F67C81946C036F485B66 /* Foundation.framework in Frameworks */,
-				A160EAF79649915EBF21339120B7A905 /* LBCoordinator.framework in Frameworks */,
+				CD92E97958C0FB4CA5D82C7170825541 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A483D33BFAEB3D9344F808D327E7C9E /* Frameworks */ = {
+		7A8793FC719106CFE470BDC46554A89F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5903321860497623317BB9909462AAFB /* Foundation.framework in Frameworks */,
+				1996DFC04CC04D9B7DD46CFE8FD05F36 /* Foundation.framework in Frameworks */,
+				1E7970FB1FEBE7B2355457A18C248A71 /* LBCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		668719C9CEF0B408C688CDF06716D404 /* Frameworks */ = {
+		7DE663D35005C83F3F1F392A0B14A631 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DAD954BD1B1A48B13A24DDDF27EA92 /* Foundation.framework in Frameworks */,
+				8D5D60396A06EDEDC10FDF2D862395E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		891ED4864E57DC7D6DDDAE9394CF1000 /* Frameworks */ = {
+		B47A9F37CFBC3754BE2986907628A02E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F9FE96F9156661D825DC79C5572ADB /* Foundation.framework in Frameworks */,
-				C4AF00CF7A6EB785F43A6C912511F02C /* LBCoordinator.framework in Frameworks */,
+				3D86A4E6546EC0D96ECD7CCF49AD54C4 /* Foundation.framework in Frameworks */,
+				6559833F230F84FB1F77C991F10DA89E /* LBCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCBD3512ED1118E4207D23869BF54925 /* Frameworks */ = {
+		FD56397DB67A3CD59494CDA53622C738 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,27 +249,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AA3309445DBC5DC46E4139433757084 /* Support Files */ = {
+		1EB35A8726C5B3BE2BFDA18BFDD03430 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E4F53F915DDC35051499EE1D649DC0A5 /* LoginPod.modulemap */,
-				A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */,
-				9F51E88344E929686BDC3572C9F13B09 /* LoginPod-dummy.m */,
-				95163EC0C27EC64B74AB78F24728FD74 /* LoginPod-Info.plist */,
-				34E4572E429D408C1167FCAF79F6CD8E /* LoginPod-prefix.pch */,
-				CCA3D734FB345A2BF728975810074AFE /* LoginPod-umbrella.h */,
-				1FB643FD1B62DF6048DB1BBE01A6A5C5 /* ResourceBundle-LoginPod-LoginPod-Info.plist */,
+				07EBAC92472B024362EEFD2FC49DF855 /* LBCoordinator.podspec */,
+				27EDFA3907FDC527CE072A0C6E7E6120 /* LICENSE */,
+				D8F842B14119F162DEB7ED0A42C2F6B9 /* README.md */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LoginPod";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		3026FC37E0D7FB64BF580EE973FEE58D /* iOS */ = {
+		34209761966DD3BCD997C58F577BAA76 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5597A2BFD62A72958C4D4B150554739 /* Foundation.framework */,
+				452E87383B13A8942478875676D8AA77 /* LBCoordinator.modulemap */,
+				5B26B5BB1603F0CBCEB127AEFC781FCE /* LBCoordinator-dummy.m */,
+				03F32A1802E1B1D312B3F95190656E40 /* LBCoordinator-Info.plist */,
+				FB8A750068CB00A3484D656FCD1FA301 /* LBCoordinator-prefix.pch */,
+				0A2519594A124D489DFE5BF3F858AB10 /* LBCoordinator-umbrella.h */,
+				136EEC041BA06E66CE12CE2B4049A77D /* LBCoordinator.debug.xcconfig */,
+				A1E15D6E53D85BA6762ACFDDBA77B762 /* LBCoordinator.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../../Desktop/MainProject-MultiPod/Pods/Target Support Files/LBCoordinator";
 			sourceTree = "<group>";
 		};
 		3BA1B25DFDC4573032AD7BE5D3615D9B /* Targets Support Files */ = {
@@ -250,23 +286,27 @@
 			isa = PBXGroup;
 			children = (
 				4E5EB6983BE47120510457156A992CEA /* LBCoordinator.framework */,
-				3026FC37E0D7FB64BF580EE973FEE58D /* iOS */,
+				988799D2127D69F41FEC919A9569CD85 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E0B2AE16EF69868FF6E985B996871E4 /* Support Files */ = {
+		4CAC5ACE0A57165A30AEB2605049EA48 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C876ADA421FAA000A514E7107945F0DB /* LBCoordinator.modulemap */,
-				BD70157C2F71553E87A6760BAE8474C3 /* LBCoordinator.xcconfig */,
-				6291F5F46BFAD1C0D91D7A8D720510DF /* LBCoordinator-dummy.m */,
-				8D152E4209F513F409B79A0D5FFD9303 /* LBCoordinator-Info.plist */,
-				64B74555D5C4C0E25EDC5B2BD3D2C98E /* LBCoordinator-prefix.pch */,
-				6CECC1928BE972540A4CD530B561EF65 /* LBCoordinator-umbrella.h */,
+				3A7BE1B0F2247C3D12B18DA1F281877B /* LoginViewController.storyboard */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LBCoordinator";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		557D2906F3268C2F59221BD163941EE6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0C17B0C3B47B6A4E8AA50C368B90D736 /* LICENSE */,
+				277D82A6C6DF8388D9DF522C49270AA6 /* ListPod.podspec */,
+				B7419EA01BF6D487F7E5C4BA7844C8F2 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		61E359E13EB7FF97579BEA3E7FA03F3A /* Products */ = {
@@ -281,19 +321,58 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88B5E12BC6DE483DF3CF8A5F8F4B69AB /* Support Files */ = {
+		64F6B86772F9B0B80AB78E2AECF8F838 /* LoginPod */ = {
 			isa = PBXGroup;
 			children = (
-				CF2BCEDF1809A219F5AC8398200F1829 /* ListPod.modulemap */,
-				DF9C2E41C0F6B16DE227BEE3F4345712 /* ListPod.xcconfig */,
-				41FEECD679455156E2D5AE5292C5FD2A /* ListPod-dummy.m */,
-				DBDC5EAC6C0789B32DEFA4F22070A495 /* ListPod-Info.plist */,
-				488C2EF3D22F8C1487310B971C9F3D9E /* ListPod-prefix.pch */,
-				8CE13257185938D652A54E171823A301 /* ListPod-umbrella.h */,
+				DD584D068CE18FBB877502B7648A0473 /* Pod */,
+				AD72086DFC549A138E99B9DAD80AE41B /* Private */,
+				E93EC15CED9CE319CAAEF7FDE1BFB49C /* Public */,
+				4CAC5ACE0A57165A30AEB2605049EA48 /* Resources */,
+				ACBFF4497CF88114DEFE54EF0D82F6AD /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ListPod";
+			name = LoginPod;
+			path = ../../LoginPod;
 			sourceTree = "<group>";
+		};
+		6D42FA6B68FFE1C46B48EBBEFBF0CF31 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7505B4F9AE900ADBF5BC786D07F46A84 /* LBCoordinator */,
+				E0EC52B17E86503E7545C4415E5C8A25 /* ListPod */,
+				64F6B86772F9B0B80AB78E2AECF8F838 /* LoginPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7505B4F9AE900ADBF5BC786D07F46A84 /* LBCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BC1FE12DF4EECEAFFC00F7FBA032AF0D /* LBBaseCoordinator.h */,
+				102E80EE6765E9647784C6C5B614D5D8 /* LBBaseCoordinator.m */,
+				8302E260D0FE37633FBD455AE42BE770 /* LBBaseCoordinator+FeatureModule.h */,
+				13B27AAFD656DE4DB886CB281EE1AE8C /* LBBaseCoordinator+FeatureModule.m */,
+				EB82A36D64ACBD111BF48B4920956BED /* LBCoordinating.h */,
+				8DDF05C400EB4480C71C073FC4D10314 /* LBCoordinator.h */,
+				DE327E2E80372724C63077F6F0D4D578 /* LBCoordinatorEventHandler.h */,
+				66683F10CCA7DC9B856466A373A01781 /* LBFeatureModule.h */,
+				461484353D82917B3A3B727C43F33AD3 /* LBFeatureModuleManager.h */,
+				E6B9097CA2D37CE827EAF83D03074F05 /* LBFeatureModuleManager.m */,
+				A4743583BB497B3C84FDF2B57A656D0F /* LBGenericCoordinator.h */,
+				D8A97EFACE63943076BBBE44AC587976 /* LBGenericCoordinator.m */,
+				8794E5499CAFA09975FF07F96EDDD782 /* LBNavigationCoordinator.h */,
+				C4AB014C72237BC9335C7526E9F719A2 /* LBNavigationCoordinator.m */,
+				0D35B55790FDF6D9FAF0D523A3691802 /* UIResponder+LBCoordinating.h */,
+				3DA455DFE6A80907AE1863814CF68EE5 /* UIResponder+LBCoordinating.m */,
+				6E6C812BFD9A2BB4F61399407A55E7CD /* UIViewController+LBCoordinator.h */,
+				6D12AF876D7A42743706A32ACEDE72DD /* UIViewController+LBCoordinator.m */,
+				D7CAAD31AC121D215A6BC0D6A34F73DA /* UIViewController+LBExt.h */,
+				C63A7CDBACB51F225EC3A3407E394604 /* UIViewController+LBExt.m */,
+				1EB35A8726C5B3BE2BFDA18BFDD03430 /* Pod */,
+				34209761966DD3BCD997C58F577BAA76 /* Support Files */,
+			);
+			name = LBCoordinator;
+			path = /Users/gxy/GitHub/LBCoordinator;
+			sourceTree = "<absolute>";
 		};
 		95451D2B3780DDB4FFD5FDF32B875A54 /* Pods-MainProject-MultiPod */ = {
 			isa = PBXGroup;
@@ -312,135 +391,165 @@
 			path = "Target Support Files/Pods-MainProject-MultiPod";
 			sourceTree = "<group>";
 		};
-		A55488A67092CB038783B8A1E72CC1B9 /* LoginPod */ = {
+		988799D2127D69F41FEC919A9569CD85 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F49DC76619A3AB18A44C780E3981C582 /* BPDependency.h */,
-				F0DEE9A156C070D7DB02E8152937E6C1 /* BPDependency.m */,
-				F252FBC6D1D1E18A5381382E5118B10F /* LoginCoordinator.h */,
-				ED1905B65F3C8C4AA0D9C78474BADBD0 /* LoginCoordinator.m */,
-				4DDA6348358DA6EDEE52A8766B68AD58 /* LoginModuleManager.h */,
-				9CC0D0B8602D9DDF141CA5F22A5F82B2 /* LoginModuleManager.m */,
-				AC8612D5F15BF7D8FA74036B29AB4FAD /* LoginViewController.h */,
-				60CA0954E006A13AFB069517E05112DD /* LoginViewController.m */,
-				6051AB9CC6760DDDF614B72B709E16AC /* LoginViewModel.h */,
-				A04D722034BA19D7BC930414295CCF30 /* LoginViewModel.m */,
-				1FE0287EEE1C625039675875909DE5CD /* UserInfo.h */,
-				CDDB6F2E8761B15CBFE42FC5D34A0B64 /* UserInfo.m */,
-				FE824923CCCB62C1348614F857D82332 /* Resources */,
-				0AA3309445DBC5DC46E4139433757084 /* Support Files */,
+				4BB0A817F183C0D9D10A9224B43CE960 /* Foundation.framework */,
 			);
-			path = LoginPod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		B239278608300014CC9DD785BCF23AC0 /* LBCoordinator */ = {
+		ACBFF4497CF88114DEFE54EF0D82F6AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC06ADCE15E2DABCF230EF7C74DFA5F5 /* LBBaseCoordinator.h */,
-				5B539DA126038A0891EAB0E6747B405B /* LBBaseCoordinator.m */,
-				C15BC39EB6B5F365C0D1DD42AF206038 /* LBCoordinating.h */,
-				4961FA490D5C2F594B236C03187B3A50 /* LBCoordinator.h */,
-				C34E67E01364F07BFBD4C7F77D404D6A /* LBGenericCoordinator.h */,
-				415AFD3195A77CFEB67ABFD9EEB007CC /* LBGenericCoordinator.m */,
-				7EFA8863D5858C455304513389CD3BE3 /* LBNavigationCoordinator.h */,
-				BD7BB77444487EC1F87744F5D10BAFAE /* LBNavigationCoordinator.m */,
-				A560A9CBB5EB5BD959CFCC288577BBAD /* UIResponder+LBCoordinating.h */,
-				8012D87188F837D55FC29E48CC36A856 /* UIResponder+LBCoordinating.m */,
-				D4043A69ED34C6949751C0F20CFE0DB6 /* UIViewController+LBCoordinator.h */,
-				C984A33347FCFC0B73932B8C9400552F /* UIViewController+LBCoordinator.m */,
-				5E0B2AE16EF69868FF6E985B996871E4 /* Support Files */,
+				755CE702DAA613FD07FF6E1F8416E99A /* LoginPod.modulemap */,
+				7CBF9B596B94B2B5B9CD588DE1BE3601 /* LoginPod-dummy.m */,
+				E59512CC2F9E2E1E1B0FC2CE5DECD613 /* LoginPod-Info.plist */,
+				CD7E6DADEAFE172AC86C90F30DBB6B51 /* LoginPod-prefix.pch */,
+				E2559BF052030D6A099F02C16E3AF934 /* LoginPod-umbrella.h */,
+				7C394C2B800EC70320D8D67989F27D6D /* LoginPod.debug.xcconfig */,
+				24B604A958D4B8AEDCFAB7A7CC069313 /* LoginPod.release.xcconfig */,
+				FBA7D546C0654F501A9C0A4404E91F50 /* ResourceBundle-LoginPod-LoginPod-Info.plist */,
 			);
-			path = LBCoordinator;
+			name = "Support Files";
+			path = "../MainProject-MultiPod/Pods/Target Support Files/LoginPod";
+			sourceTree = "<group>";
+		};
+		AD72086DFC549A138E99B9DAD80AE41B /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				2AC146AE0C826A859D0C028FBD84186F /* LoginCoordinator.h */,
+				1BF5182A41C7E1400531E701679B438A /* LoginCoordinator.m */,
+				CB22274E70AF5184BDC3F01EAF47CD95 /* LoginDependencyManager.h */,
+				9A19C6B62129C924C76022F030DD237F /* LoginDependencyManager.m */,
+				1E826B9A63B65080EDF1D37D81B9B57A /* LoginViewController.h */,
+				2D415FAAE2C3F719BA59CB2DEF4F1F2E /* LoginViewController.m */,
+				07DEC7FEDB2CF28CDF15D9BA96CE2EE9 /* LoginViewModel.h */,
+				E3F24332F306C283A277B9F0BD9DE98E /* LoginViewModel.m */,
+			);
+			name = Private;
+			path = LoginPod/Classes/Private;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6D42FA6B68FFE1C46B48EBBEFBF0CF31 /* Development Pods */,
 				40331F557A8FAE2AAD245AB802D6A2FD /* Frameworks */,
-				EF0407F7D705A2DB7CD6511487D33B26 /* Pods */,
 				61E359E13EB7FF97579BEA3E7FA03F3A /* Products */,
 				3BA1B25DFDC4573032AD7BE5D3615D9B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E511D515A1A9AEC06340743D31DD0707 /* ListPod */ = {
+		DD584D068CE18FBB877502B7648A0473 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				65CF1E32EA4FB77445CDD6A2A6C238CC /* DetailViewController.swift */,
-				43119E40E5039B6C5A067F06AF289930 /* ListCoordinator.swift */,
-				356F4E8867517FDD374CCF567DF96FB6 /* ListItem.swift */,
-				83C7304B2BBF2D061B77CC9363C96BC0 /* ListModuleCoordinatorDelegate.swift */,
-				BD531A6CFC1F974EFC49C447ED29D2F5 /* ListViewController.swift */,
-				7B67788927374AD7E0B13A2B17694558 /* ModuleManager.swift */,
-				88B5E12BC6DE483DF3CF8A5F8F4B69AB /* Support Files */,
+				E1290E234DC59977B69FFF1652936703 /* LICENSE */,
+				505DF302F7138D50E3258EB2CA363C36 /* LoginPod.podspec */,
+				F3B1A7173E1952CC1D736AD809E9A022 /* README.md */,
 			);
-			path = ListPod;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		EF0407F7D705A2DB7CD6511487D33B26 /* Pods */ = {
+		E0EC52B17E86503E7545C4415E5C8A25 /* ListPod */ = {
 			isa = PBXGroup;
 			children = (
-				B239278608300014CC9DD785BCF23AC0 /* LBCoordinator */,
-				E511D515A1A9AEC06340743D31DD0707 /* ListPod */,
-				A55488A67092CB038783B8A1E72CC1B9 /* LoginPod */,
+				EA81426563C53BCA75FADA8988190D1E /* DetailViewController.swift */,
+				D012EF22FB7457AAF373266E6679F9DC /* ListCoordinator.swift */,
+				4FD5D2D8FC4D5923BD8208F4DDA60663 /* ListFeatureModule.swift */,
+				A16BED0F23E2021AEF432B9E1C2AC21F /* ListItem.swift */,
+				2A598BA69420151347620B97344CCE73 /* ListViewController.swift */,
+				557D2906F3268C2F59221BD163941EE6 /* Pod */,
+				ED5557F9BE011A778A876FB710991FB1 /* Support Files */,
 			);
-			name = Pods;
+			name = ListPod;
+			path = ../../ListPod;
 			sourceTree = "<group>";
 		};
-		FE824923CCCB62C1348614F857D82332 /* Resources */ = {
+		E93EC15CED9CE319CAAEF7FDE1BFB49C /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				F4E30101E0F4730BB42760100A5F2B91 /* LoginViewController.storyboard */,
+				7BF4B9494234FCB458181A26473EB434 /* BPDependency.h */,
+				B3F65CDD2B92BF8573852B16681059ED /* BPDependency.m */,
+				2B36ABF4B570C0543EFDCB410B793421 /* LoginFeatureModule.h */,
+				7D9A64BD44CC17F6BD8E703BF4CA4DB0 /* LoginFeatureModule.m */,
+				8CCAF8EA0A3CC2F072D24821E278E6A6 /* LoginPodEvents.h */,
+				9A9A4E9B3E18EC59A6AC6AAE2AA154A3 /* LoginPodEvents.m */,
+				A028ACE45BA8E337697097BE8F3BAB3B /* UserInfo.h */,
+				B049D8CC84B18C1226B16AB3BA3D9DB4 /* UserInfo.m */,
 			);
-			name = Resources;
+			name = Public;
+			path = LoginPod/Classes/Public;
+			sourceTree = "<group>";
+		};
+		ED5557F9BE011A778A876FB710991FB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC72DFC80AE824EED0B55B9FF7658DD /* ListPod.modulemap */,
+				6B96A4EA98FAEA1FF5F2798E3A4F3392 /* ListPod-dummy.m */,
+				19E2B6FA29BC36902CD9EC5D186FBA67 /* ListPod-Info.plist */,
+				1994D604F956EF27C454F560D0276CDC /* ListPod-prefix.pch */,
+				BBEF661FE4F02FBDAA73F6DF5AB6DCDA /* ListPod-umbrella.h */,
+				736584C7E4C1D4CEE84D445DDEC37717 /* ListPod.debug.xcconfig */,
+				D1826400C533267FD3938CF7CAF626B6 /* ListPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../MainProject-MultiPod/Pods/Target Support Files/ListPod";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2B92F8398ED3897FB9EF3DFB0EA45553 /* Headers */ = {
+		0C7CEEAD8E3E742B61D2BF23E921E453 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7655E5E040708ECD240F4DF2F61B9C67 /* BPDependency.h in Headers */,
-				7CD755FF75974CF22DAE91D48C572DD6 /* LoginCoordinator.h in Headers */,
-				C7D03528411CADB5AB4FA8A5A3184349 /* LoginModuleManager.h in Headers */,
-				A9583364A45D926DE9737482FAA313E9 /* LoginPod-umbrella.h in Headers */,
-				AC833DDE5414ABE68941AA04CB544522 /* LoginViewController.h in Headers */,
-				7F92EED3DBD7DE2A67EE5A5B22DDC5FF /* LoginViewModel.h in Headers */,
-				6A6FDB744C6AFED0F9BDC091A57DADF1 /* UserInfo.h in Headers */,
+				4787416E80C7CBC8A5C6C9C77ABDC88F /* LBBaseCoordinator+FeatureModule.h in Headers */,
+				736BD6754393BEE9C0C186BBF4410998 /* LBBaseCoordinator.h in Headers */,
+				04F80B44A737FD1A32E1D8081EF67A23 /* LBCoordinating.h in Headers */,
+				FB31B19C77C169B1BEF851E13F3E9ABD /* LBCoordinator-umbrella.h in Headers */,
+				64E3157F7359815C3F30A3F3223CEA36 /* LBCoordinator.h in Headers */,
+				7305B9F8182B83413A8FD2D5BF31BD22 /* LBCoordinatorEventHandler.h in Headers */,
+				C66B8A8628A6ED3F5EF5E1ACEFFBA0BB /* LBFeatureModule.h in Headers */,
+				63D295FBEA6B728FB613F25DE1038234 /* LBFeatureModuleManager.h in Headers */,
+				2F503C6862AC5C3587DF0212EEF886A8 /* LBGenericCoordinator.h in Headers */,
+				F749EE0ED86D78608B2CC7C6E9D26456 /* LBNavigationCoordinator.h in Headers */,
+				0DB0C2F9F1C028D2581BE2DC08029B57 /* UIResponder+LBCoordinating.h in Headers */,
+				FF6D257E05A5314E20ACB80DB4A865AA /* UIViewController+LBCoordinator.h in Headers */,
+				7E60B90DE7C41DA37A1FEB360F741FD4 /* UIViewController+LBExt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99F70B12EADFCE34D0FF504110D5BD21 /* Headers */ = {
+		10E14BF524FD3548E850E16D0B1839EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C281C44AD98AD22C8AF9452E4081276 /* LBBaseCoordinator.h in Headers */,
-				901F865D88F859A930D3EE331100A8FF /* LBCoordinating.h in Headers */,
-				6366FD8A7AD94800C6AB2399363FAC80 /* LBCoordinator-umbrella.h in Headers */,
-				04650634C19F056206E2877D2544E7AD /* LBCoordinator.h in Headers */,
-				25B31113EA46EF654E3E899899FC95A8 /* LBGenericCoordinator.h in Headers */,
-				8C0308FA90C985D085F10AD0C846FF85 /* LBNavigationCoordinator.h in Headers */,
-				F61438D1A657416204C6B0590BD9A992 /* UIResponder+LBCoordinating.h in Headers */,
-				91C053B953DF18A9C4787F146F35381C /* UIViewController+LBCoordinator.h in Headers */,
+				BFB552F758DBBA5331C199BD704CE0AB /* ListPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A546956FD945BBD41F328725FC9479BE /* Headers */ = {
+		40A2F8BE6073164D04A8C91B58880980 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F78E0834795B0AD230FE3E7860AF7D /* ListPod-umbrella.h in Headers */,
+				55EB39742758A28D3F4E4B053ACDA696 /* Pods-MainProject-MultiPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1291BAC5FC5E8036263CDB00B81425F /* Headers */ = {
+		CBBCB87E0E96504F449E72201A144DB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1A283A900B39FF603CBFFA972324C7 /* Pods-MainProject-MultiPod-umbrella.h in Headers */,
+				9B71BC9EED87384B61D708E5263825D2 /* BPDependency.h in Headers */,
+				C5D62CAB8916AF23434193CFDD7652DC /* LoginCoordinator.h in Headers */,
+				54BBC33FA28467326467E479E83B3018 /* LoginDependencyManager.h in Headers */,
+				53F46646FE3E4BBBDE728F05CE017003 /* LoginFeatureModule.h in Headers */,
+				20ED3A7E55A8E3DB812DC3AB89C9A0BC /* LoginPod-umbrella.h in Headers */,
+				E44BE98AEBDAB18DB001562E50F6F910 /* LoginPodEvents.h in Headers */,
+				13376A1A71F990D9027F4F5D593D15AB /* LoginViewController.h in Headers */,
+				140B8608C6FA01E0CC8FE5208006418D /* LoginViewModel.h in Headers */,
+				0604719BD76C13E44B3BFB4CDC1136F2 /* UserInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,19 +558,19 @@
 /* Begin PBXNativeTarget section */
 		4924131FDCAD69058AC0F6A7FEC6685D /* Pods-MainProject-MultiPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12BCA7DC9E31E8C36E75643B4AF73495 /* Build configuration list for PBXNativeTarget "Pods-MainProject-MultiPod" */;
+			buildConfigurationList = B03B6BC66320E5C295F5EC4A7833DF29 /* Build configuration list for PBXNativeTarget "Pods-MainProject-MultiPod" */;
 			buildPhases = (
-				D1291BAC5FC5E8036263CDB00B81425F /* Headers */,
-				73F50369253FD6586378769995FF573B /* Sources */,
-				668719C9CEF0B408C688CDF06716D404 /* Frameworks */,
-				AC35DDCAAB1DAB7F511E251FD912178C /* Resources */,
+				40A2F8BE6073164D04A8C91B58880980 /* Headers */,
+				F0CCE203D77ECB932DF49B4180DCCB9A /* Sources */,
+				360DE5C753E39AEB0AFAB0F627351C10 /* Frameworks */,
+				4AFCE51A42FAB4C3A99EDC7F1F148A67 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				25C6AFCE73408FA32D422B4DAADCAA44 /* PBXTargetDependency */,
-				5CB467DE85697A6E495E7FD603F3D56B /* PBXTargetDependency */,
-				1D90E9EA23E9D13392D604F2BBFAF159 /* PBXTargetDependency */,
+				8EF5127CD7039E59D925B1E15DED0643 /* PBXTargetDependency */,
+				8F46B2FD016B19CF1B41CC96A95C05C2 /* PBXTargetDependency */,
+				555B8251C4439986CC7356504785D4C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-MainProject-MultiPod";
 			productName = "Pods-MainProject-MultiPod";
@@ -470,17 +579,17 @@
 		};
 		4D23CD2508FF79511AAB3F872CAF165C /* ListPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36F6A6A25B6CE93BAA3B5EC75D7A2BD4 /* Build configuration list for PBXNativeTarget "ListPod" */;
+			buildConfigurationList = 8E7F18BCFE6C100D94AA709ACEF9880C /* Build configuration list for PBXNativeTarget "ListPod" */;
 			buildPhases = (
-				A546956FD945BBD41F328725FC9479BE /* Headers */,
-				797EDF589AD1F2ADC6716732781FD343 /* Sources */,
-				891ED4864E57DC7D6DDDAE9394CF1000 /* Frameworks */,
-				C077330F9879C8DCA26FF81C456D5133 /* Resources */,
+				10E14BF524FD3548E850E16D0B1839EC /* Headers */,
+				82B4DF4D18C1704C11EFE0AA0A669830 /* Sources */,
+				B47A9F37CFBC3754BE2986907628A02E /* Frameworks */,
+				7C43E3D918DE3BED23E8C7A81B75AAE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EEF89C9442B45CC9251CB421FB01BA53 /* PBXTargetDependency */,
+				10C789E7A41E698EA7E3DD45BB6B400E /* PBXTargetDependency */,
 			);
 			name = ListPod;
 			productName = ListPod;
@@ -489,11 +598,11 @@
 		};
 		5E9CD55E1EA843E01746FABB23D4E9F9 /* LoginPod-LoginPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D21B5A12138DDE9BAC9878C580D8952 /* Build configuration list for PBXNativeTarget "LoginPod-LoginPod" */;
+			buildConfigurationList = 804BB87AEB5330425764F8B53C817614 /* Build configuration list for PBXNativeTarget "LoginPod-LoginPod" */;
 			buildPhases = (
-				CAC8B69B0609CC7E482BFE49F332A8CF /* Sources */,
-				CCBD3512ED1118E4207D23869BF54925 /* Frameworks */,
-				655B191BF865609BF6344CAD2D4E8FDE /* Resources */,
+				672271BBF6814A34951B58C13BE5A411 /* Sources */,
+				FD56397DB67A3CD59494CDA53622C738 /* Frameworks */,
+				0A48538D3D769D30A0844C27C2FAC7F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -506,12 +615,12 @@
 		};
 		6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3646C3C54EE76D173EC0AB5F24D9F11B /* Build configuration list for PBXNativeTarget "LBCoordinator" */;
+			buildConfigurationList = 3548064F484343898D247EB8944EC68B /* Build configuration list for PBXNativeTarget "LBCoordinator" */;
 			buildPhases = (
-				99F70B12EADFCE34D0FF504110D5BD21 /* Headers */,
-				7DCD5457DF6E4BA5CE441ED70E98BA29 /* Sources */,
-				0A483D33BFAEB3D9344F808D327E7C9E /* Frameworks */,
-				4281B91EC2C05B8B2015FF993472B8F2 /* Resources */,
+				0C7CEEAD8E3E742B61D2BF23E921E453 /* Headers */,
+				C13DF46E889EB00748BC06F85B6D039B /* Sources */,
+				7DE663D35005C83F3F1F392A0B14A631 /* Frameworks */,
+				687ECBE2728C86C4F01775273233A8ED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -524,18 +633,18 @@
 		};
 		DEC6D9AD29B13299A5B32D2F0D686D4F /* LoginPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D5DB918B1D49E5295B42570717CDD81 /* Build configuration list for PBXNativeTarget "LoginPod" */;
+			buildConfigurationList = 15F52A60F99028AF14D4D0875B0A14F7 /* Build configuration list for PBXNativeTarget "LoginPod" */;
 			buildPhases = (
-				2B92F8398ED3897FB9EF3DFB0EA45553 /* Headers */,
-				9126DC7E9C427BE649D31D8EA1535FE5 /* Sources */,
-				08AE8E8C800B0BF5559D1B282F821944 /* Frameworks */,
-				B661CB87B28DE8E966ABCD72DC5A60B7 /* Resources */,
+				CBBCB87E0E96504F449E72201A144DB3 /* Headers */,
+				CEF11354A9DF88E0B84DD936A3AA5610 /* Sources */,
+				7A8793FC719106CFE470BDC46554A89F /* Frameworks */,
+				097FFE2A13F08A6CB08DC0647356A34C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCD22D9A52E33972E38B1E870F00EDDD /* PBXTargetDependency */,
-				4D358A82DF14C2BBDB68FDD2114BA0C1 /* PBXTargetDependency */,
+				177FCA9FB93EA5142BEEC16ED59C61B1 /* PBXTargetDependency */,
+				38395162B01D4F11316AB61C50CC6A92 /* PBXTargetDependency */,
 			);
 			name = LoginPod;
 			productName = LoginPod;
@@ -549,7 +658,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -574,37 +683,37 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4281B91EC2C05B8B2015FF993472B8F2 /* Resources */ = {
+		097FFE2A13F08A6CB08DC0647356A34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D34059A6CE9BB8B8BBE90F5AE7B9AB /* LoginPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A48538D3D769D30A0844C27C2FAC7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4ACFDA4C37BBE7976A288AA9EC9A8D5 /* LoginViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AFCE51A42FAB4C3A99EDC7F1F148A67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		655B191BF865609BF6344CAD2D4E8FDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F63A34C42B60E6BDD7DBD121BE3CD06 /* LoginViewController.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC35DDCAAB1DAB7F511E251FD912178C /* Resources */ = {
+		687ECBE2728C86C4F01775273233A8ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B661CB87B28DE8E966ABCD72DC5A60B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72E5E96E34211B2601B171D9649DDD2F /* LoginPod.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C077330F9879C8DCA26FF81C456D5133 /* Resources */ = {
+		7C43E3D918DE3BED23E8C7A81B75AAE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,180 +723,128 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		73F50369253FD6586378769995FF573B /* Sources */ = {
+		672271BBF6814A34951B58C13BE5A411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4652D989F7BDB1F59D7D5D0EDB597A89 /* Pods-MainProject-MultiPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		797EDF589AD1F2ADC6716732781FD343 /* Sources */ = {
+		82B4DF4D18C1704C11EFE0AA0A669830 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75103BA36C5ED69D883EA64830FD124 /* DetailViewController.swift in Sources */,
-				63260BA0564F7E8AF9BFF134F954FF79 /* ListCoordinator.swift in Sources */,
-				0EF045FF6D65C0ADD10945F16234D624 /* ListItem.swift in Sources */,
-				0E4E8AB9BE7585FC20080FD1952BF0ED /* ListModuleCoordinatorDelegate.swift in Sources */,
-				DBDB270C2CE88C8DBD431EF43648265E /* ListPod-dummy.m in Sources */,
-				083F506460E9F56F62796D7065EA5665 /* ListViewController.swift in Sources */,
-				7D350CFD7C81B3401026210A2662F9A7 /* ModuleManager.swift in Sources */,
+				FF27508255968608BFD9042E2DFAC5F4 /* DetailViewController.swift in Sources */,
+				E28DCE2AAE779A1AF634919A36737D81 /* ListCoordinator.swift in Sources */,
+				67762AB824D976ACFD1A7BBFD11288EE /* ListFeatureModule.swift in Sources */,
+				487247F9ECE0A072B747F6E3F2789698 /* ListItem.swift in Sources */,
+				64F3D85E4CB780C01A160281DE85063C /* ListPod-dummy.m in Sources */,
+				898A48FE3E735CEE0EA1DE2CF8AA87D4 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DCD5457DF6E4BA5CE441ED70E98BA29 /* Sources */ = {
+		C13DF46E889EB00748BC06F85B6D039B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BD64B7B55468BEA6CBA8ABA5D57245 /* LBBaseCoordinator.m in Sources */,
-				14F614AC3EC0DEFC55AFEF3424E59A6B /* LBCoordinator-dummy.m in Sources */,
-				47C5FACA69B0389655B04C9EC38124D3 /* LBGenericCoordinator.m in Sources */,
-				FEA083E49EBA6DA398157D995D5274A0 /* LBNavigationCoordinator.m in Sources */,
-				1D291232F38F7B67C21E996B6CCD60DA /* UIResponder+LBCoordinating.m in Sources */,
-				CE17745D38F4429F2F4BF6BD33FD3032 /* UIViewController+LBCoordinator.m in Sources */,
+				353C919A635A7317C267EDC3B67BE96A /* LBBaseCoordinator+FeatureModule.m in Sources */,
+				E992C6E116487062DA341E22FAE352E8 /* LBBaseCoordinator.m in Sources */,
+				742FC0AC8E3BC664195307B3BB04B9EC /* LBCoordinator-dummy.m in Sources */,
+				2CDEFCA4A9548FE41B944670C6FC3AFA /* LBFeatureModuleManager.m in Sources */,
+				7257FF607156909090D024D85E15A768 /* LBGenericCoordinator.m in Sources */,
+				8F763545A9C38F6408BF3F4813B6C4E7 /* LBNavigationCoordinator.m in Sources */,
+				1F726FAF486AD3A4A9B94FBCA79B41D8 /* UIResponder+LBCoordinating.m in Sources */,
+				8E05D44DC8753863A284A44F7974A2C4 /* UIViewController+LBCoordinator.m in Sources */,
+				68F1E1F4D37959B20234F2AC0D5B58DA /* UIViewController+LBExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9126DC7E9C427BE649D31D8EA1535FE5 /* Sources */ = {
+		CEF11354A9DF88E0B84DD936A3AA5610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA80492688756E4DECA679528C3AEA6 /* BPDependency.m in Sources */,
-				9EF0D4C7C8B4683FD8141E36EBE571E4 /* LoginCoordinator.m in Sources */,
-				7A84EBD7BB9C1A8882CC8A888C181D7D /* LoginModuleManager.m in Sources */,
-				056D24F48F93E7DF7DF2BAE79E2E96E8 /* LoginPod-dummy.m in Sources */,
-				D38CADC6E2414BE189C0D478795B230B /* LoginViewController.m in Sources */,
-				6A007B9C42E66B59FB0F192A996CA2B8 /* LoginViewModel.m in Sources */,
-				BD6B497F845E87587C388569DE25F154 /* UserInfo.m in Sources */,
+				8AAEF957C8F7FB5A18F4A18DA831CE90 /* BPDependency.m in Sources */,
+				C9F8BDA1C2F400E112B16EFBA43A5272 /* LoginCoordinator.m in Sources */,
+				3A7DE948B6DCF51C8196EE563715CB4A /* LoginDependencyManager.m in Sources */,
+				036F0B290B09AAA7D2F2917C01C5E4DF /* LoginFeatureModule.m in Sources */,
+				5BC923DD99D446D9118F67990A0F96BC /* LoginPod-dummy.m in Sources */,
+				F2F80643CBEEA5A4A2FC3EBA7C7B3ACD /* LoginPodEvents.m in Sources */,
+				CE2431916414BC705048306239452A04 /* LoginViewController.m in Sources */,
+				3DD7094BDA176746013CB09373F7B3E0 /* LoginViewModel.m in Sources */,
+				A9657CE5306DE6364C2B0D058A58863D /* UserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAC8B69B0609CC7E482BFE49F332A8CF /* Sources */ = {
+		F0CCE203D77ECB932DF49B4180DCCB9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A618AF156829CF5033709E701A20ED /* Pods-MainProject-MultiPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D90E9EA23E9D13392D604F2BBFAF159 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LoginPod;
-			target = DEC6D9AD29B13299A5B32D2F0D686D4F /* LoginPod */;
-			targetProxy = 9EE88DBDF861CD286B99E5368AE5E0F3 /* PBXContainerItemProxy */;
-		};
-		25C6AFCE73408FA32D422B4DAADCAA44 /* PBXTargetDependency */ = {
+		10C789E7A41E698EA7E3DD45BB6B400E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBCoordinator;
 			target = 6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */;
-			targetProxy = 524CD367165CF448F399F726C081ABF3 /* PBXContainerItemProxy */;
+			targetProxy = B7CC82EA983C959C35886B826F19B495 /* PBXContainerItemProxy */;
 		};
-		4D358A82DF14C2BBDB68FDD2114BA0C1 /* PBXTargetDependency */ = {
+		177FCA9FB93EA5142BEEC16ED59C61B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBCoordinator;
+			target = 6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */;
+			targetProxy = F3E149EA2624217E6B527021752723AB /* PBXContainerItemProxy */;
+		};
+		38395162B01D4F11316AB61C50CC6A92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LoginPod-LoginPod";
 			target = 5E9CD55E1EA843E01746FABB23D4E9F9 /* LoginPod-LoginPod */;
-			targetProxy = EF6A50ADD9875D2597891ABF9B25D40B /* PBXContainerItemProxy */;
+			targetProxy = 73749D6E5A989F3586B41F7E706AC122 /* PBXContainerItemProxy */;
 		};
-		5CB467DE85697A6E495E7FD603F3D56B /* PBXTargetDependency */ = {
+		555B8251C4439986CC7356504785D4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginPod;
+			target = DEC6D9AD29B13299A5B32D2F0D686D4F /* LoginPod */;
+			targetProxy = B838A22085C39788CA4706ECDC908CB8 /* PBXContainerItemProxy */;
+		};
+		8EF5127CD7039E59D925B1E15DED0643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBCoordinator;
+			target = 6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */;
+			targetProxy = F177DCC4041108854F501A094808AF39 /* PBXContainerItemProxy */;
+		};
+		8F46B2FD016B19CF1B41CC96A95C05C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ListPod;
 			target = 4D23CD2508FF79511AAB3F872CAF165C /* ListPod */;
-			targetProxy = 06F61B0B2C8F9622B11EE41987F1CFBD /* PBXContainerItemProxy */;
-		};
-		BCD22D9A52E33972E38B1E870F00EDDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LBCoordinator;
-			target = 6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */;
-			targetProxy = 96DBBA71B6EA41EA3530A0B817841EE5 /* PBXContainerItemProxy */;
-		};
-		EEF89C9442B45CC9251CB421FB01BA53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LBCoordinator;
-			target = 6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */;
-			targetProxy = 8C1B493825AD6359861F415BD9340521 /* PBXContainerItemProxy */;
+			targetProxy = 2A3344D631D49D82CA5BD77689822B73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		29FDD6DDE73DDB8EDFF399FD2A6A8A1D /* Release */ = {
+		0D1B4A90C1C5482B8267A5DA7B936FBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9C2E41C0F6B16DE227BEE3F4345712 /* ListPod.xcconfig */;
+			baseConfigurationReference = 24B604A958D4B8AEDCFAB7A7CC069313 /* LoginPod.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ListPod/ListPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ListPod/ListPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ListPod/ListPod.modulemap";
-				PRODUCT_MODULE_NAME = ListPod;
-				PRODUCT_NAME = ListPod;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginPod";
+				IBSC_MODULE = LoginPod;
+				INFOPLIST_FILE = "Target Support Files/LoginPod/ResourceBundle-LoginPod-LoginPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LoginPod;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		3EBB76B859D68650D104C49A8F992343 /* Debug */ = {
+		3002663F9A5435568CA62541F62C9C80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9C2E41C0F6B16DE227BEE3F4345712 /* ListPod.xcconfig */;
+			baseConfigurationReference = 136EEC041BA06E66CE12CE2B4049A77D /* LBCoordinator.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ListPod/ListPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ListPod/ListPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ListPod/ListPod.modulemap";
-				PRODUCT_MODULE_NAME = ListPod;
-				PRODUCT_NAME = ListPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F076F5ED0379C56F23BFDD0683D78D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD70157C2F71553E87A6760BAE8474C3 /* LBCoordinator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -799,42 +856,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LBCoordinator/LBCoordinator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LBCoordinator/LBCoordinator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LBCoordinator/LBCoordinator.modulemap";
-				PRODUCT_MODULE_NAME = LBCoordinator;
-				PRODUCT_NAME = LBCoordinator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		88CB6D36B8B71FC217FA7EEC0EEF2FB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD70157C2F71553E87A6760BAE8474C3 /* LBCoordinator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LBCoordinator/LBCoordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LBCoordinator/LBCoordinator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -852,12 +874,28 @@
 			};
 			name = Debug;
 		};
-		8DAAA2C1824A0F165E28CE22671C3ED4 /* Debug */ = {
+		3E7D76FED686B53F7E45DD26EDDC4CBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6399D089989202B03E4066F7ED17CBCB /* Pods-MainProject-MultiPod.debug.xcconfig */;
+			baseConfigurationReference = 7C394C2B800EC70320D8D67989F27D6D /* LoginPod.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginPod";
+				IBSC_MODULE = LoginPod;
+				INFOPLIST_FILE = "Target Support Files/LoginPod/ResourceBundle-LoginPod-LoginPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LoginPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4CC523498F268FE97D211496038D7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF738E412233AB796DA4AB5F42553E92 /* Pods-MainProject-MultiPod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -868,7 +906,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MainProject-MultiPod/Pods-MainProject-MultiPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -884,12 +922,46 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		521D5E5DA888FD0101F3EF9CEFF84823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C394C2B800EC70320D8D67989F27D6D /* LoginPod.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginPod/LoginPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginPod/LoginPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LoginPod/LoginPod.modulemap";
+				PRODUCT_MODULE_NAME = LoginPod;
+				PRODUCT_NAME = LoginPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -915,66 +987,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1000,7 +1013,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1013,11 +1026,71 @@
 			};
 			name = Debug;
 		};
-		A3F9D852CBC4BAECA6AA7392849018F6 /* Release */ = {
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFE2295DC61BB4949338C8D3E2EE0F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B604A958D4B8AEDCFAB7A7CC069313 /* LoginPod.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1048,80 +1121,12 @@
 			};
 			name = Release;
 		};
-		C67D7A034D9B961435AFA407ADC9441A /* Debug */ = {
+		E50FAADF64DB45B8B7BE3D7F34D5BE6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */;
+			baseConfigurationReference = 6399D089989202B03E4066F7ED17CBCB /* Pods-MainProject-MultiPod.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginPod";
-				IBSC_MODULE = LoginPod;
-				INFOPLIST_FILE = "Target Support Files/LoginPod/ResourceBundle-LoginPod-LoginPod-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = LoginPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CE7516C176B1A9B933FA322AD872C117 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginPod";
-				IBSC_MODULE = LoginPod;
-				INFOPLIST_FILE = "Target Support Files/LoginPod/ResourceBundle-LoginPod-LoginPod-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = LoginPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D78B353E8043CA90E39917B655F13609 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33A7DD0FB292BBE562358ED1B376C5C /* LoginPod.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LoginPod/LoginPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LoginPod/LoginPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LoginPod/LoginPod.modulemap";
-				PRODUCT_MODULE_NAME = LoginPod;
-				PRODUCT_NAME = LoginPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D8CDF7DBE75BC5F552FC0119E0198BB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF738E412233AB796DA4AB5F42553E92 /* Pods-MainProject-MultiPod.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1132,7 +1137,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MainProject-MultiPod/Pods-MainProject-MultiPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1148,56 +1153,131 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE7BBB15CF573A8390655FC393DC1156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1826400C533267FD3938CF7CAF626B6 /* ListPod.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ListPod/ListPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListPod/ListPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ListPod/ListPod.modulemap";
+				PRODUCT_MODULE_NAME = ListPod;
+				PRODUCT_NAME = ListPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		FCC10DB0785C17682406068DB3F96AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E15D6E53D85BA6762ACFDDBA77B762 /* LBCoordinator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBCoordinator/LBCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBCoordinator/LBCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBCoordinator/LBCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = LBCoordinator;
+				PRODUCT_NAME = LBCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE529F918976B3B4DB8C959F73F9B9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736584C7E4C1D4CEE84D445DDEC37717 /* ListPod.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ListPod/ListPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListPod/ListPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ListPod/ListPod.modulemap";
+				PRODUCT_MODULE_NAME = ListPod;
+				PRODUCT_NAME = ListPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12BCA7DC9E31E8C36E75643B4AF73495 /* Build configuration list for PBXNativeTarget "Pods-MainProject-MultiPod" */ = {
+		15F52A60F99028AF14D4D0875B0A14F7 /* Build configuration list for PBXNativeTarget "LoginPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DAAA2C1824A0F165E28CE22671C3ED4 /* Debug */,
-				D8CDF7DBE75BC5F552FC0119E0198BB5 /* Release */,
+				521D5E5DA888FD0101F3EF9CEFF84823 /* Debug */,
+				CFE2295DC61BB4949338C8D3E2EE0F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D21B5A12138DDE9BAC9878C580D8952 /* Build configuration list for PBXNativeTarget "LoginPod-LoginPod" */ = {
+		3548064F484343898D247EB8944EC68B /* Build configuration list for PBXNativeTarget "LBCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C67D7A034D9B961435AFA407ADC9441A /* Debug */,
-				CE7516C176B1A9B933FA322AD872C117 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D5DB918B1D49E5295B42570717CDD81 /* Build configuration list for PBXNativeTarget "LoginPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D78B353E8043CA90E39917B655F13609 /* Debug */,
-				A3F9D852CBC4BAECA6AA7392849018F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3646C3C54EE76D173EC0AB5F24D9F11B /* Build configuration list for PBXNativeTarget "LBCoordinator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88CB6D36B8B71FC217FA7EEC0EEF2FB9 /* Debug */,
-				5F076F5ED0379C56F23BFDD0683D78D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		36F6A6A25B6CE93BAA3B5EC75D7A2BD4 /* Build configuration list for PBXNativeTarget "ListPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3EBB76B859D68650D104C49A8F992343 /* Debug */,
-				29FDD6DDE73DDB8EDFF399FD2A6A8A1D /* Release */,
+				3002663F9A5435568CA62541F62C9C80 /* Debug */,
+				FCC10DB0785C17682406068DB3F96AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1205,8 +1285,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804BB87AEB5330425764F8B53C817614 /* Build configuration list for PBXNativeTarget "LoginPod-LoginPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7D76FED686B53F7E45DD26EDDC4CBE /* Debug */,
+				0D1B4A90C1C5482B8267A5DA7B936FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7F18BCFE6C100D94AA709ACEF9880C /* Build configuration list for PBXNativeTarget "ListPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE529F918976B3B4DB8C959F73F9B9CC /* Debug */,
+				EE7BBB15CF573A8390655FC393DC1156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03B6BC66320E5C295F5EC4A7833DF29 /* Build configuration list for PBXNativeTarget "Pods-MainProject-MultiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50FAADF64DB45B8B7BE3D7F34D5BE6B /* Debug */,
+				4CC523498F268FE97D211496038D7446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

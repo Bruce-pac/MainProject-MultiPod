@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BPHttpClient.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class AppCoordinator;
 
-@interface MainModuleManager : NSObject
-+ (void)injectAllDependencyWith:(AppCoordinator *)appFlow;
+@interface MainDependencyManager : NSObject
+
++ (BPHttpClient *)httpClient;
 @end
 
 NS_ASSUME_NONNULL_END

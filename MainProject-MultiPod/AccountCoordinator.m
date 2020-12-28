@@ -15,20 +15,21 @@
 
 @implementation AccountCoordinator
 
-- (void)start{
+- (void)startWithOptions:(NSDictionary *)options{
+    [super startWithOptions:options];
     AccountVM *vm = [AccountVM new];
     self.accountVM = vm;
     AccountViewController *account = [[AccountViewController alloc] initWithViewModel:vm];
     account.delegate = self;
     account.title = @"account";
-    [self.rootVC pushViewController:account animated:NO];
+    [self pushViewController:account animated:NO];
 }
 
 - (void)onTapAccountBtn:(nonnull AccountViewController *)vc {
     [self.delegate accountCoordinatorOnTapAvatar:self];
 }
 
-- (void)updateUserInfo:(UserInfo *)info{
+- (void)updateUserInfo:(AccountInfo *)info{
     [self.accountVM updateUserInfo:info];
 }
 

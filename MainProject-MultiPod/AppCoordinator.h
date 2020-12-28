@@ -13,23 +13,12 @@
 #import <ListPod-Swift.h>
 #import <BPDependency.h>
 #import "PayCoordinator.h"
+#import "PayFeatureModule.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AppCoordinator : LBGenericCoordinator<MainTabBarViewController *>
-@end
-
-@interface AppCoordinator (ListPodCoordinatorTypeImp)<ListModuleCoordinatorDelegate>
-
-@end
-
-@interface AppCoordinator (LoginCoordinatorDelegateImp)<LoginCoordinatorDelegate>
-
-@end
-
-@interface AppCoordinator (PayCoordinatorDelegateImp)<PayCoordinatorDelegate>
-
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,6 +7,7 @@
 //
 
 #import "PayViewController.h"
+#import "PayFeatureModuleEvents.h"
 
 @interface PayViewController ()
 
@@ -21,7 +22,25 @@
 }
 
 - (IBAction)onTapPay:(id)sender {
-    [self.payViewModel payWithId:self.pId];
+    [self lb_coordinatingMessage:kPayModuleNeedLoginStateEvent object:self userInfo:nil asyncHandler:^(id _Nonnull data) {
+        BOOL isLogin = [data boolValue];
+        if (isLogin) {
+            [self.payViewModel payWithId:self.pId];
+        } else {
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"登录后才能支付" message:nil preferredStyle:UIAlertControllerStyleAlert];
+            [alert addAction:[UIAlertAction actionWithTitle:@"去登录" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                [self lb_coordinatingMessage:kPayModuleToLoginModuleEvent object:self userInfo:nil asyncHandler:^(NSNumber *_Nonnull data) {
+                    BOOL success = [data boolValue];
+                    if (success) {
+                        [self.payViewModel payWithId:self.pId];
+                    }
+                }];
+            }]];
+            [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            }]];
+            [self presentViewController:alert animated:true completion:nil];
+        }
+    }];
 }
 
 

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainModuleManager.h"
+#import "MainDependencyManager.h"
 #import "AppCoordinator.h"
 #import "MainTabBarViewController.h"
 
@@ -25,8 +25,7 @@
     MainTabBarViewController *root = [MainTabBarViewController new];
     self.appCoordinator = [[AppCoordinator alloc] initWithRootVC:root];
     self.window.rootViewController = root;
-    [self.appCoordinator start];
-    [MainModuleManager injectAllDependencyWith:self.appCoordinator];
+    [self.appCoordinator startWithOptions:launchOptions];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -57,5 +56,8 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (UIResponder *)nextResponder{
+    return self.appCoordinator;
+}
 
 @end

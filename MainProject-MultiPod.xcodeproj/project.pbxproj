@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32049194236AE30C00C53E33 /* MainTabBarViewController.m */; };
+		84497663258B513A0012DD7E /* AccountFeatureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 84497662258B513A0012DD7E /* AccountFeatureModule.m */; };
+		84497667258B53C40012DD7E /* AccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84497666258B53C40012DD7E /* AccountInfo.m */; };
+		8449766C258B63D10012DD7E /* XMListModuleEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8449766B258B63D10012DD7E /* XMListModuleEventHandler.m */; };
+		84497671258B67BA0012DD7E /* XMPayModuleEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84497670258B67BA0012DD7E /* XMPayModuleEventHandler.m */; };
 		8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC7D2367388C0009AEF7 /* AppCoordinator.m */; };
 		8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456AC8023673B700009AEF7 /* PayViewController.storyboard */; };
 		8456AC88236B30490009AEF7 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456AC86236B30490009AEF7 /* AccountViewController.m */; };
@@ -16,12 +20,16 @@
 		847D4ECA243C88A7006EB3A3 /* AccountCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */; };
 		847D4ECD243C8EB1006EB3A3 /* PayCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */; };
 		847D4ED224404607006EB3A3 /* PayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4ED124404607006EB3A3 /* PayViewModel.m */; };
+		849D5E83257CAA8E00044407 /* PayFeatureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5E82257CAA8E00044407 /* PayFeatureModule.m */; };
+		849D5E86257D355900044407 /* featureModules.json in Resources */ = {isa = PBXBuildFile; fileRef = 849D5E85257D355900044407 /* featureModules.json */; };
+		84C1F094258FAB0700A4052A /* XMLoginModuleEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1F093258FAB0700A4052A /* XMLoginModuleEventHandler.m */; };
+		84C6B13C257E3C830094F399 /* PayFeatureModuleEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B13B257E3C830094F399 /* PayFeatureModuleEvents.m */; };
 		84D21F1B232D13B800859622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1A232D13B800859622 /* AppDelegate.m */; };
 		84D21F1E232D13B800859622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F1D232D13B800859622 /* ViewController.m */; };
 		84D21F23232D13BB00859622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F22232D13BB00859622 /* Assets.xcassets */; };
 		84D21F26232D13BB00859622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D21F24232D13BB00859622 /* LaunchScreen.storyboard */; };
 		84D21F29232D13BB00859622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D21F28232D13BB00859622 /* main.m */; };
-		84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7967B23326B2400F5538E /* MainModuleManager.m */; };
+		84D7967C23326B2400F5538E /* MainDependencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7967B23326B2400F5538E /* MainDependencyManager.m */; };
 		84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7967D23326CEB00F5538E /* BPHttpClient.m */; };
 		84D796822332717200F5538E /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D796812332717200F5538E /* PayViewController.m */; };
 		85B3D43020FA0F8F8B572108 /* Pods_MainProject_MultiPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1E3278538F1E3686EDEFAC /* Pods_MainProject_MultiPod.framework */; };
@@ -31,6 +39,14 @@
 		32049193236AE30C00C53E33 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		32049194236AE30C00C53E33 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		79F584E5217FECCEB2034230 /* Pods-MainProject-MultiPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject-MultiPod.release.xcconfig"; path = "Target Support Files/Pods-MainProject-MultiPod/Pods-MainProject-MultiPod.release.xcconfig"; sourceTree = "<group>"; };
+		84497661258B513A0012DD7E /* AccountFeatureModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountFeatureModule.h; sourceTree = "<group>"; };
+		84497662258B513A0012DD7E /* AccountFeatureModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountFeatureModule.m; sourceTree = "<group>"; };
+		84497665258B53C40012DD7E /* AccountInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountInfo.h; sourceTree = "<group>"; };
+		84497666258B53C40012DD7E /* AccountInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountInfo.m; sourceTree = "<group>"; };
+		8449766A258B63D10012DD7E /* XMListModuleEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMListModuleEventHandler.h; sourceTree = "<group>"; };
+		8449766B258B63D10012DD7E /* XMListModuleEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMListModuleEventHandler.m; sourceTree = "<group>"; };
+		8449766F258B67BA0012DD7E /* XMPayModuleEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPayModuleEventHandler.h; sourceTree = "<group>"; };
+		84497670258B67BA0012DD7E /* XMPayModuleEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPayModuleEventHandler.m; sourceTree = "<group>"; };
 		8456AC7C2367388C0009AEF7 /* AppCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinator.h; sourceTree = "<group>"; };
 		8456AC7D2367388C0009AEF7 /* AppCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoordinator.m; sourceTree = "<group>"; };
 		8456AC8023673B700009AEF7 /* PayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayViewController.storyboard; sourceTree = "<group>"; };
@@ -45,6 +61,13 @@
 		847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCoordinator.m; sourceTree = "<group>"; };
 		847D4ED024404607006EB3A3 /* PayViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayViewModel.h; sourceTree = "<group>"; };
 		847D4ED124404607006EB3A3 /* PayViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayViewModel.m; sourceTree = "<group>"; };
+		849D5E81257CAA8E00044407 /* PayFeatureModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayFeatureModule.h; sourceTree = "<group>"; };
+		849D5E82257CAA8E00044407 /* PayFeatureModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayFeatureModule.m; sourceTree = "<group>"; };
+		849D5E85257D355900044407 /* featureModules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = featureModules.json; sourceTree = "<group>"; };
+		84C1F092258FAB0700A4052A /* XMLoginModuleEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLoginModuleEventHandler.h; sourceTree = "<group>"; };
+		84C1F093258FAB0700A4052A /* XMLoginModuleEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLoginModuleEventHandler.m; sourceTree = "<group>"; };
+		84C6B13A257E3C650094F399 /* PayFeatureModuleEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayFeatureModuleEvents.h; sourceTree = "<group>"; };
+		84C6B13B257E3C830094F399 /* PayFeatureModuleEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayFeatureModuleEvents.m; sourceTree = "<group>"; };
 		84D21F16232D13B800859622 /* MainProject-MultiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainProject-MultiPod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D21F19232D13B800859622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84D21F1A232D13B800859622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,8 +77,8 @@
 		84D21F25232D13BB00859622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D21F27232D13BB00859622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D21F28232D13BB00859622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84D7967A23326B2400F5538E /* MainModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModuleManager.h; sourceTree = "<group>"; };
-		84D7967B23326B2400F5538E /* MainModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModuleManager.m; sourceTree = "<group>"; };
+		84D7967A23326B2400F5538E /* MainDependencyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainDependencyManager.h; sourceTree = "<group>"; };
+		84D7967B23326B2400F5538E /* MainDependencyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainDependencyManager.m; sourceTree = "<group>"; };
 		84D7967D23326CEB00F5538E /* BPHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPHttpClient.m; sourceTree = "<group>"; };
 		84D7967E23326CEB00F5538E /* BPHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPHttpClient.h; sourceTree = "<group>"; };
 		84D796802332717200F5538E /* PayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
@@ -93,7 +116,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		847D4EAD243B36CE006EB3A3 /* Accout */ = {
+		84497669258B63950012DD7E /* EventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				8449766A258B63D10012DD7E /* XMListModuleEventHandler.h */,
+				8449766B258B63D10012DD7E /* XMListModuleEventHandler.m */,
+				8449766F258B67BA0012DD7E /* XMPayModuleEventHandler.h */,
+				84497670258B67BA0012DD7E /* XMPayModuleEventHandler.m */,
+				84C1F092258FAB0700A4052A /* XMLoginModuleEventHandler.h */,
+				84C1F093258FAB0700A4052A /* XMLoginModuleEventHandler.m */,
+			);
+			name = EventHandler;
+			sourceTree = "<group>";
+		};
+		847D4EAD243B36CE006EB3A3 /* OldAccout */ = {
 			isa = PBXGroup;
 			children = (
 				8456AC8A236B42590009AEF7 /* AccountVM.h */,
@@ -103,8 +139,12 @@
 				8456AC87236B30490009AEF7 /* AccountViewController.xib */,
 				847D4EC8243C88A7006EB3A3 /* AccountCoordinator.h */,
 				847D4EC9243C88A7006EB3A3 /* AccountCoordinator.m */,
+				84497661258B513A0012DD7E /* AccountFeatureModule.h */,
+				84497662258B513A0012DD7E /* AccountFeatureModule.m */,
+				84497665258B53C40012DD7E /* AccountInfo.h */,
+				84497666258B53C40012DD7E /* AccountInfo.m */,
 			);
-			name = Accout;
+			name = OldAccout;
 			sourceTree = "<group>";
 		};
 		847D4EAE243B36F3006EB3A3 /* Pay */ = {
@@ -117,8 +157,19 @@
 				847D4ECC243C8EB1006EB3A3 /* PayCoordinator.m */,
 				847D4ED024404607006EB3A3 /* PayViewModel.h */,
 				847D4ED124404607006EB3A3 /* PayViewModel.m */,
+				849D5E81257CAA8E00044407 /* PayFeatureModule.h */,
+				849D5E82257CAA8E00044407 /* PayFeatureModule.m */,
+				84C6B13A257E3C650094F399 /* PayFeatureModuleEvents.h */,
+				84C6B13B257E3C830094F399 /* PayFeatureModuleEvents.m */,
 			);
 			name = Pay;
+			sourceTree = "<group>";
+		};
+		84C6B137257E29900094F399 /* NewAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NewAccount;
 			sourceTree = "<group>";
 		};
 		84D21F0D232D13B800859622 = {
@@ -142,12 +193,14 @@
 		84D21F18232D13B800859622 /* MainProject-MultiPod */ = {
 			isa = PBXGroup;
 			children = (
+				84497669258B63950012DD7E /* EventHandler */,
+				84C6B137257E29900094F399 /* NewAccount */,
 				847D4EAE243B36F3006EB3A3 /* Pay */,
-				847D4EAD243B36CE006EB3A3 /* Accout */,
+				847D4EAD243B36CE006EB3A3 /* OldAccout */,
 				84D21F19232D13B800859622 /* AppDelegate.h */,
 				84D21F1A232D13B800859622 /* AppDelegate.m */,
-				84D7967A23326B2400F5538E /* MainModuleManager.h */,
-				84D7967B23326B2400F5538E /* MainModuleManager.m */,
+				84D7967A23326B2400F5538E /* MainDependencyManager.h */,
+				84D7967B23326B2400F5538E /* MainDependencyManager.m */,
 				84D21F1C232D13B800859622 /* ViewController.h */,
 				84D21F1D232D13B800859622 /* ViewController.m */,
 				84D7967E23326CEB00F5538E /* BPHttpClient.h */,
@@ -160,6 +213,7 @@
 				8456AC7D2367388C0009AEF7 /* AppCoordinator.m */,
 				32049193236AE30C00C53E33 /* MainTabBarViewController.h */,
 				32049194236AE30C00C53E33 /* MainTabBarViewController.m */,
+				849D5E85257D355900044407 /* featureModules.json */,
 			);
 			path = "MainProject-MultiPod";
 			sourceTree = "<group>";
@@ -192,7 +246,7 @@
 		84D21F0E232D13B800859622 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Bruce;
 				TargetAttributes = {
 					84D21F15232D13B800859622 = {
@@ -226,6 +280,7 @@
 				8456AC8123673B700009AEF7 /* PayViewController.storyboard in Resources */,
 				84D21F26232D13BB00859622 /* LaunchScreen.storyboard in Resources */,
 				8456AC89236B30490009AEF7 /* AccountViewController.xib in Resources */,
+				849D5E86257D355900044407 /* featureModules.json in Resources */,
 				84D21F23232D13BB00859622 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,18 +334,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84497663258B513A0012DD7E /* AccountFeatureModule.m in Sources */,
 				8456AC7E2367388C0009AEF7 /* AppCoordinator.m in Sources */,
 				847D4ECD243C8EB1006EB3A3 /* PayCoordinator.m in Sources */,
 				847D4ED224404607006EB3A3 /* PayViewModel.m in Sources */,
-				84D7967C23326B2400F5538E /* MainModuleManager.m in Sources */,
+				8449766C258B63D10012DD7E /* XMListModuleEventHandler.m in Sources */,
+				84D7967C23326B2400F5538E /* MainDependencyManager.m in Sources */,
+				84497667258B53C40012DD7E /* AccountInfo.m in Sources */,
 				84D796822332717200F5538E /* PayViewController.m in Sources */,
+				849D5E83257CAA8E00044407 /* PayFeatureModule.m in Sources */,
 				84D21F1E232D13B800859622 /* ViewController.m in Sources */,
+				84C1F094258FAB0700A4052A /* XMLoginModuleEventHandler.m in Sources */,
 				8456AC8C236B42590009AEF7 /* AccountVM.m in Sources */,
 				847D4ECA243C88A7006EB3A3 /* AccountCoordinator.m in Sources */,
 				8456AC88236B30490009AEF7 /* AccountViewController.m in Sources */,
 				84D7967F23326CEB00F5538E /* BPHttpClient.m in Sources */,
 				32049195236AE30C00C53E33 /* MainTabBarViewController.m in Sources */,
 				84D21F29232D13BB00859622 /* main.m in Sources */,
+				84C6B13C257E3C830094F399 /* PayFeatureModuleEvents.m in Sources */,
+				84497671258B67BA0012DD7E /* XMPayModuleEventHandler.m in Sources */,
 				84D21F1B232D13B800859622 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +397,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -394,6 +457,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -431,6 +495,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NS27ZB8WPD;
 				INFOPLIST_FILE = "MainProject-MultiPod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +516,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NS27ZB8WPD;
 				INFOPLIST_FILE = "MainProject-MultiPod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

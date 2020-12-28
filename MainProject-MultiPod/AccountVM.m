@@ -15,7 +15,7 @@
 
 @implementation AccountVM
 
-- (void)updateUserInfo:(UserInfo *)info{
+- (void)updateUserInfo:(AccountInfo *)info{
     NSAttributedString *name = [[NSAttributedString alloc] initWithString:@"Bruce" attributes:@{NSFontAttributeName: [UIFont boldSystemFontOfSize:15]}];
     [self.listeners enumerateObjectsUsingBlock:^(UserNameListenser  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         obj(name);
